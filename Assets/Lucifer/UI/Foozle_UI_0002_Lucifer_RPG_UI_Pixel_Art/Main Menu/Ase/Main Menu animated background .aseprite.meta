@@ -1,0 +1,1256 @@
+fileFormatVersion: 2
+guid: ac78a587f5e61a644910a9d3b157b547
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Main Menu animated background _Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 480
+      height: 270
+    spriteID: a98a22760c3661d4aa80add0df84d1eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Main Menu animated background _Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 282
+      width: 480
+      height: 270
+    spriteID: e8d5a106b0a58d74ab5a9b4da057b1be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 282}
+  - name: Main Menu animated background _Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 560
+      width: 480
+      height: 270
+    spriteID: 8e0dea49603d6b6409d342abcf523cbe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 560}
+  - name: Main Menu animated background _Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 838
+      width: 480
+      height: 270
+    spriteID: 7c3910c9b425ce840bb7094e493bb147
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 838}
+  - name: Main Menu animated background _Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1116
+      width: 480
+      height: 270
+    spriteID: c727cf0c9f143714da0437c0dda62b51
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1116}
+  - name: Main Menu animated background _Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1394
+      width: 480
+      height: 270
+    spriteID: 45427f8e28262a84db12e93df83428d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1394}
+  - name: Main Menu animated background _Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1672
+      width: 480
+      height: 270
+    spriteID: 5642a1b7010add24c9c25e78b0dce194
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1672}
+  - name: Main Menu animated background _Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1950
+      width: 480
+      height: 270
+    spriteID: 5438b41352c547540bc3f07c637363df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1950}
+  - name: Main Menu animated background _Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2228
+      width: 480
+      height: 270
+    spriteID: 69af3724c6c76a84d8050e007455df45
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2228}
+  - name: Main Menu animated background _Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2506
+      width: 480
+      height: 270
+    spriteID: e19e31f01faa91a4e8738a1f73715882
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2506}
+  - name: Main Menu animated background _Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2784
+      width: 480
+      height: 270
+    spriteID: 7236858e873c996408b53615e460a1f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2784}
+  - name: Main Menu animated background _Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3062
+      width: 480
+      height: 270
+    spriteID: b5b236c461eb860428d065177768fb3a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3062}
+  - name: Main Menu animated background _Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3340
+      width: 480
+      height: 270
+    spriteID: 1aaf73774cc576a468ab1a03e2932721
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3340}
+  - name: Main Menu animated background _Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3618
+      width: 480
+      height: 270
+    spriteID: 793776ac3603dc442a4490634a7bd5f4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3618}
+  - name: Main Menu animated background _Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 492
+      y: 4
+      width: 480
+      height: 270
+    spriteID: 04e05cbd350d5b9408fda33804e37aa1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 492, y: 4}
+  - name: Main Menu animated background _Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 492
+      y: 282
+      width: 480
+      height: 270
+    spriteID: 81915123aa976e34ea543f9f5fa30f9d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 492, y: 282}
+  - name: Main Menu animated background _Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 492
+      y: 560
+      width: 480
+      height: 270
+    spriteID: 9a643cfaaa50bc84bab3557bfebe8032
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 492, y: 560}
+  - name: Main Menu animated background _Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 492
+      y: 838
+      width: 480
+      height: 270
+    spriteID: 9fe1c73811f491142811caaa676d25a5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 492, y: 838}
+  - name: Main Menu animated background _Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 492
+      y: 1116
+      width: 480
+      height: 270
+    spriteID: a0dd66df320ec7d40849e42a12aed6ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 492, y: 1116}
+  - name: Main Menu animated background _Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 492
+      y: 1394
+      width: 480
+      height: 270
+    spriteID: dbd75e5e5d4680340b67f5906a8f79ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 492, y: 1394}
+  - name: Main Menu animated background _Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 492
+      y: 1672
+      width: 480
+      height: 270
+    spriteID: 8849653ddbc6d9c45a6c5b312ec0dcbf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 492, y: 1672}
+  - name: Main Menu animated background _Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 492
+      y: 1950
+      width: 480
+      height: 270
+    spriteID: e1ed0100f61991043933589ae47d29b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 492, y: 1950}
+  - name: Main Menu animated background _Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 492
+      y: 2228
+      width: 480
+      height: 270
+    spriteID: 9e8db9eeb15c0214b874ffbdba0d74c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 492, y: 2228}
+  - name: Main Menu animated background _Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 492
+      y: 2506
+      width: 480
+      height: 270
+    spriteID: 1f4fffe1d6e0b3e499c15fa6cd26808d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 492, y: 2506}
+  - name: Main Menu animated background _Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 492
+      y: 2784
+      width: 480
+      height: 270
+    spriteID: 8007c93e222c0634ab0de4cc27c9a304
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 492, y: 2784}
+  - name: Main Menu animated background _Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 492
+      y: 3062
+      width: 480
+      height: 270
+    spriteID: 492834ecf1d92fe448e95ba935a03a6d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 492, y: 3062}
+  - name: Main Menu animated background _Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 492
+      y: 3340
+      width: 480
+      height: 270
+    spriteID: d85dbd950eb945c49a8c69ce679253ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 492, y: 3340}
+  - name: Main Menu animated background _Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 492
+      y: 3618
+      width: 480
+      height: 270
+    spriteID: 6e1d7aba25b498547ac9f2ccb667e17e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 492, y: 3618}
+  - name: Main Menu animated background _Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 980
+      y: 4
+      width: 480
+      height: 270
+    spriteID: 21daa78d4815c554c9688334c18bdc06
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 980, y: 4}
+  - name: Main Menu animated background _Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 980
+      y: 282
+      width: 480
+      height: 270
+    spriteID: a1652208f0bcf91408335edadaa2768f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 980, y: 282}
+  - name: Main Menu animated background _Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 980
+      y: 560
+      width: 480
+      height: 270
+    spriteID: 6082a89386322d6469fa0d26df9b01ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 980, y: 560}
+  - name: Main Menu animated background _Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 980
+      y: 838
+      width: 480
+      height: 270
+    spriteID: 30df52f27808b7448b2d6e2c3d8dbacc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 980, y: 838}
+  - name: Main Menu animated background _Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 980
+      y: 1116
+      width: 480
+      height: 270
+    spriteID: 70761e770d61bd141952281ed263c866
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 980, y: 1116}
+  - name: Main Menu animated background _Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 980
+      y: 1394
+      width: 480
+      height: 270
+    spriteID: 2c9bb9d24e38450498111f8a42fee1e5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 980, y: 1394}
+  - name: Main Menu animated background _Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 980
+      y: 1672
+      width: 480
+      height: 270
+    spriteID: 14f5c96c9f104a14299a535ff11a9c14
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 980, y: 1672}
+  - name: Main Menu animated background _Frame_35
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 980
+      y: 1950
+      width: 480
+      height: 270
+    spriteID: 945e0b1371112634bb4e9bfa0a9c79a9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 980, y: 1950}
+  - name: Main Menu animated background _Frame_36
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 980
+      y: 2228
+      width: 480
+      height: 270
+    spriteID: 189190033c032914b9d6db826d0565b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 980, y: 2228}
+  - name: Main Menu animated background _Frame_37
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 980
+      y: 2506
+      width: 480
+      height: 270
+    spriteID: a394885d8b7c4c341a0c30acda222f29
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 980, y: 2506}
+  - name: Main Menu animated background _Frame_38
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 980
+      y: 2784
+      width: 480
+      height: 270
+    spriteID: c6f52fce199958547a354503804c10c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 980, y: 2784}
+  - name: Main Menu animated background _Frame_39
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 980
+      y: 3062
+      width: 480
+      height: 270
+    spriteID: 1f5da8a169681c9418051743098c7f99
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 980, y: 3062}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 383025313
+    name: 'Main Menu animated background '
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Main Menu animated background _Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: a98a22760c3661d4aa80add0df84d1eb
+    - name: Main Menu animated background _Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: e8d5a106b0a58d74ab5a9b4da057b1be
+    - name: Main Menu animated background _Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 8e0dea49603d6b6409d342abcf523cbe
+    - name: Main Menu animated background _Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 7c3910c9b425ce840bb7094e493bb147
+    - name: Main Menu animated background _Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: c727cf0c9f143714da0437c0dda62b51
+    - name: Main Menu animated background _Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 45427f8e28262a84db12e93df83428d3
+    - name: Main Menu animated background _Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 5642a1b7010add24c9c25e78b0dce194
+    - name: Main Menu animated background _Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 5438b41352c547540bc3f07c637363df
+    - name: Main Menu animated background _Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 69af3724c6c76a84d8050e007455df45
+    - name: Main Menu animated background _Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: e19e31f01faa91a4e8738a1f73715882
+    - name: Main Menu animated background _Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 7236858e873c996408b53615e460a1f9
+    - name: Main Menu animated background _Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: b5b236c461eb860428d065177768fb3a
+    - name: Main Menu animated background _Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 1aaf73774cc576a468ab1a03e2932721
+    - name: Main Menu animated background _Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 793776ac3603dc442a4490634a7bd5f4
+    - name: Main Menu animated background _Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 04e05cbd350d5b9408fda33804e37aa1
+    - name: Main Menu animated background _Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 81915123aa976e34ea543f9f5fa30f9d
+    - name: Main Menu animated background _Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 9a643cfaaa50bc84bab3557bfebe8032
+    - name: Main Menu animated background _Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 9fe1c73811f491142811caaa676d25a5
+    - name: Main Menu animated background _Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: a0dd66df320ec7d40849e42a12aed6ce
+    - name: Main Menu animated background _Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: dbd75e5e5d4680340b67f5906a8f79ec
+    - name: Main Menu animated background _Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 8849653ddbc6d9c45a6c5b312ec0dcbf
+    - name: Main Menu animated background _Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: e1ed0100f61991043933589ae47d29b8
+    - name: Main Menu animated background _Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 9e8db9eeb15c0214b874ffbdba0d74c5
+    - name: Main Menu animated background _Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 1f4fffe1d6e0b3e499c15fa6cd26808d
+    - name: Main Menu animated background _Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 8007c93e222c0634ab0de4cc27c9a304
+    - name: Main Menu animated background _Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 492834ecf1d92fe448e95ba935a03a6d
+    - name: Main Menu animated background _Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: d85dbd950eb945c49a8c69ce679253ef
+    - name: Main Menu animated background _Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 6e1d7aba25b498547ac9f2ccb667e17e
+    - name: Main Menu animated background _Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 21daa78d4815c554c9688334c18bdc06
+    - name: Main Menu animated background _Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: a1652208f0bcf91408335edadaa2768f
+    - name: Main Menu animated background _Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 6082a89386322d6469fa0d26df9b01ec
+    - name: Main Menu animated background _Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 30df52f27808b7448b2d6e2c3d8dbacc
+    - name: Main Menu animated background _Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 70761e770d61bd141952281ed263c866
+    - name: Main Menu animated background _Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 2c9bb9d24e38450498111f8a42fee1e5
+    - name: Main Menu animated background _Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 14f5c96c9f104a14299a535ff11a9c14
+    - name: Main Menu animated background _Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 945e0b1371112634bb4e9bfa0a9c79a9
+    - name: Main Menu animated background _Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 189190033c032914b9d6db826d0565b6
+    - name: Main Menu animated background _Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: a394885d8b7c4c341a0c30acda222f29
+    - name: Main Menu animated background _Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: c6f52fce199958547a354503804c10c9
+    - name: Main Menu animated background _Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 0
+        y: 0
+        width: 480
+        height: 270
+      spriteId: 1f5da8a169681c9418051743098c7f99
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 480, y: 270}

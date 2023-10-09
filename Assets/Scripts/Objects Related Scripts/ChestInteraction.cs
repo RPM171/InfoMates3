@@ -4,19 +4,21 @@ using UnityEngine;
 
 public class ChestInteraction : MonoBehaviour
 {
-    
+
     private Animator animator;
     private SpriteRenderer spriteRenderer;
     public Sprite isOpenSprite;
     private CircleCollider2D interactionCollider;
+    public GameObject carta;
     // Start is called before the first frame update
-  private void Start()
+    private void Start()
     {
+        carta.SetActive(false);
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        interactionCollider = GetComponent<CircleCollider2D>();     
+        interactionCollider = GetComponent<CircleCollider2D>();
 
-      
+
     }
     private void Update()
     {
@@ -24,7 +26,9 @@ public class ChestInteraction : MonoBehaviour
         {
             animator.SetTrigger("Open");
             spriteRenderer.sprite = isOpenSprite;
-            transform.localScale = new Vector3(1.2f,1.2f,1.2f);
+            transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
+
+            carta.SetActive(true);
         }
     }
     private bool IsCharacterWithinRadius()
@@ -39,3 +43,8 @@ public class ChestInteraction : MonoBehaviour
         return false;
     }
 }
+
+ 
+
+    
+
