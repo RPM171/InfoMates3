@@ -4,28 +4,33 @@ using UnityEngine;
 
 public class KevinMenu : MonoBehaviour
 {
-        public float fuerzaDeSalto = 5f;
-        private Rigidbody rb;
-        public GameObject jugador;
+    public float jumpForce = 5f; // Fuerza de salto
+    private Rigidbody2D rb;
+    private bool isGrounded;
 
-        void Start()
-        {
-            rb = jugador.GetComponent<Rigidbody>();
-}
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
 
-void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                Saltar();
-            }
-        }
+    private void Update()
+    {
+        // Verificar si el personaje está en el suelo
+        isGrounded = Physics2D.Raycast(transform.position, Vector2.down, 0.1f);
 
-        void Saltar()
+        // Saltar si se presiona la tecla de espacio o tocas la pantalla
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
-            rb.AddForce(Vector2.up * fuerzaDeSalto); 
+            Jump();
         }
     }
+
+    private void Jump()
+    {
+        rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+    }
+}
+
 
 
 
