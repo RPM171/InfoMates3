@@ -13,7 +13,7 @@ public class ChestInteraction : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        carta.SetActive(false);
+        carta.SetActive(false);     
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         interactionCollider = GetComponent<CircleCollider2D>();

@@ -14,6 +14,10 @@ public class Charactermovement : MonoBehaviour
     private float moveX;
     private float moveY;
 
+    public bool tieneCarta = false;
+    public Vector3 posicionDestino = new Vector3(-18.13f, -2.53f, 4.21566f);
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +29,15 @@ public class Charactermovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+
+        if (tieneCarta)
+        {
+            transform.position = posicionDestino;
+            tieneCarta = false;
+        }
+
+
         if (Input.GetMouseButtonDown(1)) // 1 is for right mouse button
         {
 
