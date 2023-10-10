@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 33b2b4499833ef740af734603b703299
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Doctor Glitch
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 974696acc0f986d499b19f1246f7ba39, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
