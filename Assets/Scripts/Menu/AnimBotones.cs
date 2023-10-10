@@ -10,6 +10,8 @@ public class AnimBotones : MonoBehaviour
     public GameObject PuntuacionesGrande;
     public GameObject Salir;
     public GameObject SalirGrande;
+    public GameObject Titulo;
+    public GameObject TituloGrande;
     void Start()
     {
         
@@ -49,5 +51,14 @@ public class AnimBotones : MonoBehaviour
     {
         SalirGrande.SetActive(false);
         Salir.SetActive(true);
+    }
+    public void TituloG() { 
+        Titulo.SetActive(false);
+        TituloGrande.SetActive(true);
+    }
+    public void TituloP()
+    {
+        Titulo.SetActive(true);
+        TituloGrande.SetActive(false);
     }
 }
