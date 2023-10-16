@@ -5,13 +5,14 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     private EstatGameManager _estatGameManager;
-    public GameObject Menu;
-    public GameObject KevinMenu;
-    public GameObject Canvas;
+    public GameObject GameOver;
+    public GameObject Pergamino;
+    public GameObject textPergamino;
     public enum EstatGameManager
     {
         Inici,
         Jugant,
+        Historia,
         Pausa,
         Inventario,
         GameOver
@@ -37,18 +38,22 @@ public class GameManager : MonoBehaviour
                
                 break;
             case EstatGameManager.Jugant:
-                Menu.SetActive(false);
-                KevinMenu.SetActive(false);
-                Canvas.SetActive(false);
+                GameOver.SetActive(false);
+                Pergamino.SetActive(false);
+                textPergamino.SetActive(false);
                 break;
             case EstatGameManager.Pausa:
                
+                break;
+            case EstatGameManager.Historia:
+                Pergamino.SetActive(true);
+                textPergamino.SetActive(true);
                 break;
             case EstatGameManager.Inventario:
 
                 break;
             case EstatGameManager.GameOver:
-                
+                GameOver.SetActive(true);
                 break;
         }
     }
@@ -65,6 +70,16 @@ public class GameManager : MonoBehaviour
     public void PassarAEstatJugant()
     {
         _estatGameManager = EstatGameManager.Jugant;
+        ActuallitzaEstatGameManager();
+    }
+    public void PassarAEstatInventario()
+    {
+        _estatGameManager = EstatGameManager.Inventario;
+        ActuallitzaEstatGameManager();
+    }
+    public void PassarAEstatGameOver()
+    {
+        _estatGameManager = EstatGameManager.GameOver;
         ActuallitzaEstatGameManager();
     }
 }

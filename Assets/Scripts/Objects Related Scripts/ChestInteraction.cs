@@ -9,11 +9,12 @@ public class ChestInteraction : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     public Sprite isOpenSprite;
     private CircleCollider2D interactionCollider;
-    public GameObject carta;
+    public GameObject Pergamino;
+    public GameObject Historia;
     // Start is called before the first frame update
     private void Start()
     {
-        carta.SetActive(false);     
+            
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         interactionCollider = GetComponent<CircleCollider2D>();
@@ -22,13 +23,16 @@ public class ChestInteraction : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && IsCharacterWithinRadius())
+        float contador = 0;
+        if (Input.GetKeyDown(KeyCode.E) && IsCharacterWithinRadius()&&contador!=1)
         {
             animator.SetTrigger("Open");
             spriteRenderer.sprite = isOpenSprite;
             transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
-
-            carta.SetActive(true);
+            Pergamino.SetActive(true);
+            Historia.SetActive(true);
+            contador = 1;
+           
         }
     }
     private bool IsCharacterWithinRadius()

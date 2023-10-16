@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Tilemaps;
@@ -20,7 +21,9 @@ public class Charactermovement : MonoBehaviour
 
     public Tilemap destroyabledoorTilemap;
 
+    private float timer = 15f; // Tiempo en segundos para esperar.
 
+    private bool timerStarted = false;
 
     // Start is called before the first frame update
     void Start()
@@ -37,9 +40,18 @@ public class Charactermovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!timerStarted)
+        {
+            timer -= Time.deltaTime;
+            if (timer <= 0)
+            {
+                // Coloca aquí el código que deseas ejecutar después de 5 segundos.
+                GameObject.Find("GameManager").GetComponent<GameManager>().SetEstatGameManager(GameManager.EstatGameManager.GameOver);
+                timerStarted = true; // Para que no se ejecute de nuevo.
+            }
+        }
 
 
-     
         if (Input.GetMouseButtonDown(1)) // 1 is for right mouse button
         {
 
@@ -82,6 +94,8 @@ public class Charactermovement : MonoBehaviour
     {
         animator.SetTrigger(triggerName);
     }
+
+
 
 }
 
