@@ -10,30 +10,42 @@ public class ChestInteraction : MonoBehaviour
     public Sprite isOpenSprite;
     private CircleCollider2D interactionCollider;
     public GameObject Pergamino;
-    public GameObject Historia;
+    public float contador;
+
     // Start is called before the first frame update
     private void Start()
     {
-            
+          
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         interactionCollider = GetComponent<CircleCollider2D>();
+        contador = 0;
 
 
     }
     private void Update()
     {
-        float contador = 0;
-        if (Input.GetKeyDown(KeyCode.E) && IsCharacterWithinRadius()&&contador!=1)
+        
+        if (Input.GetKeyDown(KeyCode.E) && IsCharacterWithinRadius())
         {
-            animator.SetTrigger("Open");
-            spriteRenderer.sprite = isOpenSprite;
-            transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
-            Pergamino.SetActive(true);
-            Historia.SetActive(true);
-            contador = 1;
-           
+            if (contador != 1)
+            {
+                animator.SetTrigger("Open");
+                spriteRenderer.sprite = isOpenSprite;
+                transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
+                Pergamino.SetActive(true);
+                contador = 1;
+            }
+            else
+            {
+                animator.SetTrigger("Open");
+                spriteRenderer.sprite = isOpenSprite;
+                transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
+                Debug.Log("El cofre esta vacio");
+            }
+
         }
+        
     }
     private bool IsCharacterWithinRadius()
     {

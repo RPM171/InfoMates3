@@ -54,3 +54,6 @@ TagManager:
   - name: Inventory
     uniqueID: 2379118463
     locked: 0
+  - name: Pergamino
+    uniqueID: 604761195
+    locked: 0

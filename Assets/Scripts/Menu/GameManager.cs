@@ -45,10 +45,6 @@ public class GameManager : MonoBehaviour
             case EstatGameManager.Pausa:
                
                 break;
-            case EstatGameManager.Historia:
-                Pergamino.SetActive(true);
-                textPergamino.SetActive(true);
-                break;
             case EstatGameManager.Inventario:
 
                 break;

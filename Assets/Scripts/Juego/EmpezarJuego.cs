@@ -5,7 +5,6 @@ using UnityEngine;
 public class EmpezarJuego : MonoBehaviour
 {
     public GameObject Pergamin;
-    public GameObject Historia;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,10 +14,12 @@ public class EmpezarJuego : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             Pergamin.SetActive(false);
-            Historia.SetActive(false);
+            Debug.Log("La tecla Espacio ha sido presionada.");
+            Destroy(Pergamin);
+            
         }
     }
 }
