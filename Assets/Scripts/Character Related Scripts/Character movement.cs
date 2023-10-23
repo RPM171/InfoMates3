@@ -16,40 +16,21 @@ public class Charactermovement : MonoBehaviour
     private float moveX;
     private float moveY;
 
-    public bool tieneCarta = false;
-    public Vector3 posicionDestino = new Vector3(-18.13f, -2.53f, 4.21566f);
-
     public Tilemap destroyabledoorTilemap;
 
-    private float timer = 15f; // Tiempo en segundos para esperar.
-
-    private bool timerStarted = false;
+    public GameObject Victoria;
 
     // Start is called before the first frame update
     void Start()
     {
         targetPosition = transform.position;
         animator = GetComponent<Animator>();
-
-        if (tieneCarta == true)
-        {
-            transform.position = posicionDestino;
-        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!timerStarted)
-        {
-            timer -= Time.deltaTime;
-            if (timer <= 0)
-            {
-                // Coloca aquí el código que deseas ejecutar después de 5 segundos.
-                GameObject.Find("GameManager").GetComponent<GameManager>().SetEstatGameManager(GameManager.EstatGameManager.GameOver);
-                timerStarted = true; // Para que no se ejecute de nuevo.
-            }
-        }
+       
 
 
         if (Input.GetMouseButtonDown(1)) // 1 is for right mouse button

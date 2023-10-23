@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class ChestInteraction : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class ChestInteraction : MonoBehaviour
     private CircleCollider2D interactionCollider;
     public GameObject Pergamino;
     public float contador;
+
+    private float timer = 10f; // Tiempo en segundos para esperar.
+    private bool timerStarted = false;
 
     // Start is called before the first frame update
     private void Start()
@@ -38,14 +42,25 @@ public class ChestInteraction : MonoBehaviour
             }
             else
             {
-                animator.SetTrigger("Open");
-                spriteRenderer.sprite = isOpenSprite;
-                transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
                 Debug.Log("El cofre esta vacio");
             }
 
         }
-        
+
+        if (!timerStarted)
+        {
+            timer -= Time.deltaTime;
+            if (timer <= 0)
+            {
+                if (contador!=1)
+                {
+                   
+                    GameObject.Find("GameManager").GetComponent<GameManager>().SetEstatGameManager(GameManager.EstatGameManager.GameOver);
+                    timerStarted = true; // Para que no se ejecute de nuevo.
+                }
+                
+            }
+        }
     }
     private bool IsCharacterWithinRadius()
     {

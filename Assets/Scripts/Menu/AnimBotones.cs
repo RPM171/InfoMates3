@@ -24,13 +24,13 @@ public class AnimBotones : MonoBehaviour
     }
     public void JugarG()
     {
-        jugarGrande.SetActive(true);
         jugar.SetActive(false);
+        jugarGrande.SetActive(true);
     }
     public void JugarP()
     {
+        jugar.SetActive(true);  
         jugarGrande.SetActive(false);
-        jugar.SetActive(true);
     }
     public void puntuaG()
     {
