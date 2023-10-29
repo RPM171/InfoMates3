@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class ChestInteraction : MonoBehaviour
 {
@@ -10,7 +11,9 @@ public class ChestInteraction : MonoBehaviour
     public Sprite isOpenSprite;
     private CircleCollider2D interactionCollider;
     public GameObject Pergamino;
-    public float contador;
+    private float contador;
+    private float timer = 15f; // Tiempo en segundos para esperar.
+    private bool timerStarted = false;
 
     // Start is called before the first frame update
     private void Start()
@@ -45,7 +48,16 @@ public class ChestInteraction : MonoBehaviour
             }
 
         }
-        
+        if (!timerStarted)
+        {
+            timer -= Time.deltaTime;
+            if (timer <= 0&& contador==0)
+            {
+                GameObject.Find("GameManager").GetComponent<GameManager>().SetEstatGameManager(GameManager.EstatGameManager.GameOver);
+                timerStarted = true; // Para que no se ejecute de nuevo.
+            }
+        }
+
     }
     private bool IsCharacterWithinRadius()
     {
