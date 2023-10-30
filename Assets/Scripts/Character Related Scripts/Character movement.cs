@@ -13,26 +13,22 @@ public class Charactermovement : MonoBehaviour
 
     private Animator animator;
 
-    private float moveX;
-    private float moveY;
-
     public Tilemap destroyabledoorTilemap;
 
-    public GameObject Victoria;
+    private Rigidbody2D rb;
 
     // Start is called before the first frame update
     void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
         targetPosition = transform.position;
         animator = GetComponent<Animator>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-       
-
-
         if (Input.GetMouseButtonDown(1)) // 1 is for right mouse button
         {
 
@@ -75,8 +71,17 @@ public class Charactermovement : MonoBehaviour
     {
         animator.SetTrigger(triggerName);
     }
-
-
-
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Pared"))
+        {
+            // Evitar que el jugador atraviese la pared
+            rb.velocity = Vector2.zero;
+        }
+    }
 }
+
+
+
+
 

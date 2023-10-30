@@ -11,7 +11,9 @@ public class ChestInteraction : MonoBehaviour
     public Sprite isOpenSprite;
     private CircleCollider2D interactionCollider;
     public GameObject Pergamino;
-    public float contador;
+    private float contador;
+    private float timer = 15f; // Tiempo en segundos para esperar.
+    private bool timerStarted = false;
 
     private float timer = 10f; // Tiempo en segundos para esperar.
     private bool timerStarted = false;
