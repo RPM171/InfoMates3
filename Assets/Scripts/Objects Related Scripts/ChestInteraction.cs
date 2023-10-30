@@ -5,29 +5,30 @@ using UnityEngine.UIElements;
 
 public class ChestInteraction : MonoBehaviour
 {
-
+    
     private Animator animator;
     private SpriteRenderer spriteRenderer;
     public Sprite isOpenSprite;
+    public Charactermovement charactermovement;
     private CircleCollider2D interactionCollider;
     public GameObject Pergamino;
     private float contador;
     private float timer = 15f; // Tiempo en segundos para esperar.
     private bool timerStarted = false;
-
-    private float timer = 10f; // Tiempo en segundos para esperar.
-    private bool timerStarted = false;
+    public Camera mainCamera;
+    private Vector3 lockedCameraPosition;
+    
 
     // Start is called before the first frame update
     private void Start()
     {
-          
+        lockedCameraPosition = new Vector3(-18.52f, 6.61f, -10.0f);
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         interactionCollider = GetComponent<CircleCollider2D>();
         contador = 0;
 
-
+        
     }
     private void Update()
     {
@@ -41,6 +42,8 @@ public class ChestInteraction : MonoBehaviour
                 transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
                 Pergamino.SetActive(true);
                 contador = 1;
+                mainCamera.transform.position = lockedCameraPosition;
+                charactermovement.speed = 0;
             }
             else
             {

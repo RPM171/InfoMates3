@@ -7,7 +7,7 @@ using UnityEngine.Tilemaps;
 
 public class Charactermovement : MonoBehaviour
 {
-    public float speed = 5.0f; // You can adjust the speed to your liking
+    public float speed = 5.0f; 
 
     private Vector2 targetPosition;
 
@@ -27,8 +27,10 @@ public class Charactermovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update() 
+    { 
+
+
         if (Input.GetMouseButtonDown(1)) // 1 is for right mouse button
         {
 
@@ -78,6 +80,13 @@ public class Charactermovement : MonoBehaviour
             // Evitar que el jugador atraviese la pared
             rb.velocity = Vector2.zero;
         }
+    }
+    public void teleportPlayer()
+    {
+       Vector3 teleport = new Vector3(-18f, -1.22f, 0f);
+        targetPosition=teleport;
+
+
     }
 }
 
