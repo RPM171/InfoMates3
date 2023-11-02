@@ -165,7 +165,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &149616041
 GameObject:
@@ -201,7 +201,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  destroyabledoorTilemap: {fileID: 0}
+  personaje: {fileID: 149616041}
+  animator: {fileID: 149616047}
 --- !u!212 &149616043
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -240,8 +241,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -264496001
-  m_SortingLayer: 2
+  m_SortingLayerID: -1915848833
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 1351810907, guid: f63d964ce6478444da3c9fe17ab68837, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -261,13 +262,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 149616041}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.83, y: 6.3, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -18.5, y: 6.26, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &149616045
 BoxCollider2D:
@@ -349,7 +350,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 149616041}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 1e5a6a37bda162448b65add22c559e22, type: 2}
   m_CullingMode: 0
@@ -1557,7 +1558,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &324293564
 GameObject:
@@ -2032,7 +2033,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -2629,6 +2630,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Pergamino: {fileID: 1373152285}
   Victoria: {fileID: 1272693597}
+  charactermovement: {fileID: 149616042}
+  player: {fileID: 149616041}
 --- !u!1 &1535508307
 GameObject:
   m_ObjectHideFlags: 0
@@ -12396,7 +12399,7 @@ RectTransform:
   - {fileID: 1373152287}
   - {fileID: 1272693598}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -12477,8 +12480,8 @@ GameObject:
   - component: {fileID: 1846976303}
   - component: {fileID: 1846976305}
   - component: {fileID: 1846976304}
-  - component: {fileID: 1846976307}
   - component: {fileID: 1846976308}
+  - component: {fileID: 1846976309}
   m_Layer: 3
   m_Name: Walls
   m_TagString: Wall
@@ -16666,18 +16669,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1846976307
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1846976302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!19719996 &1846976308
 TilemapCollider2D:
   m_ObjectHideFlags: 0
@@ -16714,6 +16705,33 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!50 &1846976309
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846976302}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 10
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1921904162
 GameObject:
   m_ObjectHideFlags: 0
@@ -17161,6 +17179,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4910507230702456828, guid: d021c08c7fc48ea42a9c5702295cc2ef, type: 3}
+      propertyPath: puerta
+      value: 
+      objectReference: {fileID: 324293564}
+    - target: {fileID: 4910507230702456828, guid: d021c08c7fc48ea42a9c5702295cc2ef, type: 3}
       propertyPath: Historia
       value: 
       objectReference: {fileID: 0}
@@ -17186,7 +17208,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5827685681972056268, guid: d021c08c7fc48ea42a9c5702295cc2ef, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5827685681972056268, guid: d021c08c7fc48ea42a9c5702295cc2ef, type: 3}
       propertyPath: m_LocalScale.x

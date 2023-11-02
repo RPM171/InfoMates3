@@ -12,7 +12,6 @@ public class controlador : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
         posicionRelativa = transform.position - personaje.transform.position;
 
     }
@@ -23,6 +22,10 @@ public class controlador : MonoBehaviour
 
         transform.position = personaje.transform.position + posicionRelativa;
 
+    }
+    void quitarBlockeo()
+    {
+        transform.position = new Vector3(-18.52f, 6.61f, -10f);
     }
 }
 

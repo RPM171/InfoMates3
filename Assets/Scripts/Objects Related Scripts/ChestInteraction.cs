@@ -19,6 +19,7 @@ public class ChestInteraction : MonoBehaviour
     private Vector3 lockedCameraPosition;
     
 
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -44,6 +45,7 @@ public class ChestInteraction : MonoBehaviour
                 contador = 1;
                 mainCamera.transform.position = lockedCameraPosition;
                 charactermovement.speed = 0;
+                
             }
             else
             {
