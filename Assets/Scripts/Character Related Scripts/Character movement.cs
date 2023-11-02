@@ -32,35 +32,13 @@ public class Charactermovement : MonoBehaviour
         if (Input.GetMouseButtonDown(1)) // 1 is for right mouse button
         {
 
-            
+
             targetPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Vector2 moveDirection = (targetPosition - (Vector2)transform.position).normalized;
 
-            if (moveDirection.magnitude > 0.1f)
-            {
-                if (moveDirection.y > 0.1f)
-                {
-                    SetAnimation("UpTrigger");
-                }
-                else if (moveDirection.y < -0.1f)
-                {
-                    SetAnimation("DownTrigger");
-                }
-                else if (moveDirection.x > 0.1f)
-                {
-                    SetAnimation("RightTrigger");
-                }
-                else if (moveDirection.x < -0.1f)
-                {
-                    SetAnimation("LeftTrigger");
-                }
-            }
-            else
-            {
-                SetAnimation("IdleTrigger");
-            }
+
         }
-        
+
 
         if ((Vector2)transform.position != targetPosition)
         {

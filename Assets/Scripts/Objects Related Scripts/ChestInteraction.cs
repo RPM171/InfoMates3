@@ -15,9 +15,7 @@ public class ChestInteraction : MonoBehaviour
     private float timer = 15f; // Tiempo en segundos para esperar.
     private bool timerStarted = false;
 
-    private float timer = 10f; // Tiempo en segundos para esperar.
-    private bool timerStarted = false;
-
+  
     // Start is called before the first frame update
     private void Start()
     {
