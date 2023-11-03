@@ -29,30 +29,33 @@ public class Charactermovement : MonoBehaviour
     }
 
     // Update is called once per frame
-   void Update()
-{
-    if (Input.GetMouseButtonDown(1)) // 1 is for right mouse button
+    void Update()
     {
-        targetPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector2 moveDirection = (targetPosition - rb.position).normalized;
-
-        if (moveDirection.magnitude > 0.1f)
+        if (Input.GetMouseButtonDown(1)) // 1 is for right mouse button
         {
-            if (moveDirection.x > 0.1f)
+            targetPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 moveDirection = (targetPosition - rb.position).normalized;
+
+            if (moveDirection.magnitude > 0.1f)
             {
+
+                if (moveDirection.x > 0.1f)
+                {
                     animator.SetTrigger("RightTrigger");
-            }
-            else if (moveDirection.x < -0.1f)
-            {
+                }
+                else if (moveDirection.x < -0.1f)
+                {
                     animator.SetTrigger("LeftTrigger");
+                }
+
+                else
+                {
+                    animator.SetTrigger("IdleTrigger");
+                }
             }
-            }
-            else
-            {
-                animator.SetTrigger("IdleTrigger");
-            }
+        }
     }
-}
+
 
 
     void FixedUpdate()
@@ -63,7 +66,8 @@ public class Charactermovement : MonoBehaviour
         }
         }
 
-            public void PauseMovement()
+
+        public void PauseMovement()
         {
             isPaused = true;
         }
