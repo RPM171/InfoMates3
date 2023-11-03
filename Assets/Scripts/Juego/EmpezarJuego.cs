@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -7,6 +8,9 @@ public class EmpezarJuego : MonoBehaviour
 {
     public GameObject Pergamino;
     public GameObject Victoria;
+    public Charactermovement charactermovement;
+    public GameObject player;
+    private Boolean leeido = false;
     
     // Start is called before the first frame update
     void Start()
@@ -23,8 +27,13 @@ public class EmpezarJuego : MonoBehaviour
             Pergamino.SetActive(false);
             Debug.Log("La tecla Espacio ha sido presionada.");
             Destroy(Pergamino);
-            Victoria.SetActive(true);
+            leeido = true;
             
+        }
+        if (leeido==true)
+        {
+            charactermovement.teleportPlayer(player);
+            charactermovement.PauseMovement();
         }
     }
 }
