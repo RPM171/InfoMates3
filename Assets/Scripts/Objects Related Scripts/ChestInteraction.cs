@@ -19,6 +19,7 @@ public class ChestInteraction : MonoBehaviour
     private Vector3 lockedCameraPosition;
     
 
+  
 
     // Start is called before the first frame update
     private void Start()

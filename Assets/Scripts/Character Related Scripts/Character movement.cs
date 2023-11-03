@@ -38,6 +38,12 @@ public class Charactermovement : MonoBehaviour
 
         if (moveDirection.magnitude > 0.1f)
         {
+
+
+            targetPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 moveDirection = (targetPosition - (Vector2)transform.position).normalized;
+
+
             if (moveDirection.x > 0.1f)
             {
                     animator.SetTrigger("RightTrigger");
@@ -63,6 +69,8 @@ public class Charactermovement : MonoBehaviour
         }
         }
 
+
+        if ((Vector2)transform.position != targetPosition)
             public void PauseMovement()
         {
             isPaused = true;
