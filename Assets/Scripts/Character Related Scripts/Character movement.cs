@@ -24,7 +24,7 @@ public class Charactermovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         targetPosition = transform.position;
-        animator= GetComponentInChildren<Animator>();
+       // animator= GetComponentInChildren<Animator>();
         
     }
 
@@ -36,7 +36,7 @@ public class Charactermovement : MonoBehaviour
         targetPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 moveDirection = (targetPosition - rb.position).normalized;
 
-        if (moveDirection.magnitude > 0.1f)
+       /* if (moveDirection.magnitude > 0.1f)
         {
             if (moveDirection.x > 0.1f)
             {
@@ -47,10 +47,10 @@ public class Charactermovement : MonoBehaviour
                     animator.SetTrigger("LeftTrigger");
             }
             }
-            else
+            else if(moveDirection.x ==0)
             {
                 animator.SetTrigger("IdleTrigger");
-            }
+            }*/
     }
 }
 

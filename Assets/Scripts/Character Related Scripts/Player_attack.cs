@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class Player_attack : MonoBehaviour
 {
-
-    public Animator animator;
+    
+    public Follow_Player enemy;
+    private int damage;
+    private Animation anim;
     // Start is called before the first frame update
     void Start()
     {
-        
+         anim = GetComponent<Animation>();
     }
 
     // Update is called once per frame
@@ -18,11 +20,22 @@ public class Player_attack : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Attack();
+
         }
         
     }
     void Attack()
     {
-        animator.SetTrigger("Attack");
+        anim.Play("AttackLeft");
     }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            enemy.setHealthEnemy(damage);
+
+
+        }
+    }
+
 }

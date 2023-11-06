@@ -11,7 +11,7 @@ public class HealthManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -19,17 +19,10 @@ public class HealthManager : MonoBehaviour
     {
         if (healthAmount <= 0)
         {
-            Application.LoadLevel(Application.loadedLevel);
+            GameObject.Find("GameManager").GetComponent<GameManager>().SetEstatGameManager(GameManager.EstatGameManager.GameOver);
         }
 
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            takeDamage(20);
-        }
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            Heal(10);
-        }
+        
     }
     public void takeDamage(float damage)
     {

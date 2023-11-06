@@ -13,8 +13,6 @@ public class ChestInteraction : MonoBehaviour
     private CircleCollider2D interactionCollider;
     public GameObject Pergamino;
     private float contador;
-    private float timer = 15f; // Tiempo en segundos para esperar.
-    private bool timerStarted = false;
     public Camera mainCamera;
     private Vector3 lockedCameraPosition;
     
@@ -54,20 +52,7 @@ public class ChestInteraction : MonoBehaviour
 
         }
 
-        if (!timerStarted)
-        {
-            timer -= Time.deltaTime;
-            if (timer <= 0)
-            {
-                if (contador!=1)
-                {
-                   
-                    GameObject.Find("GameManager").GetComponent<GameManager>().SetEstatGameManager(GameManager.EstatGameManager.GameOver);
-                    timerStarted = true; // Para que no se ejecute de nuevo.
-                }
-                
-            }
-        }
+        
     }
     private bool IsCharacterWithinRadius()
     {

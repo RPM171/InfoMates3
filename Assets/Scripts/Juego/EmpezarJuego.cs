@@ -11,6 +11,7 @@ public class EmpezarJuego : MonoBehaviour
     public Charactermovement charactermovement;
     public GameObject player;
     private Boolean leeido = false;
+    public Follow_Player Follow_Player;
     
     // Start is called before the first frame update
     void Start()
@@ -27,13 +28,16 @@ public class EmpezarJuego : MonoBehaviour
             Pergamino.SetActive(false);
             Debug.Log("La tecla Espacio ha sido presionada.");
             Destroy(Pergamino);
+            charactermovement.PauseMovement();
             leeido = true;
+            Follow_Player.EmpezarJuego = true;
             
         }
         if (leeido==true)
         {
             charactermovement.teleportPlayer(player);
-            charactermovement.PauseMovement();
+            charactermovement.ResumeMovement();
+            charactermovement.speed = 5f;
         }
     }
 }

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,31 +7,63 @@ public class Follow_Player : MonoBehaviour
 {
     public GameObject Player;
     public float speed;
-
+    public Boolean EmpezarJuego = false;
     private float distance;
+    private Rigidbody2D rb;
+    private Boolean detectado = false;
+    private int damage;
+    public HealthManager health;
+    private int healthEnemy;
+    
     // Start is called before the first frame update
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody2D>();
+        damage = 20;
+        healthEnemy = 100;
     }
 
     // Update is called once per frame
     void Update()
     {
-        distance = Vector2.Distance(transform.position, Player.transform.position);
-        Vector2 direction = Player.transform.position - transform.position;
-        direction.Normalize();
-
-        //float angle = Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg;
-
-        transform.position = Vector2.MoveTowards(this.transform.position, Player.transform.position, speed * Time.deltaTime);
-        //transform.rotation = Quaternion.Euler(Vector3.forward * angle);
-
-        if (distance < 0.02)
+        if (EmpezarJuego == true)
         {
-            transform.position = Vector2.MoveTowards(this.transform.position, Player.transform.position, speed * Time.deltaTime);
-            
+            movimientoEnemigo();
+            muerteEnemigo();
         }
-           
-            }
+
+    }
+    public void movimientoEnemigo()
+    {
+            Vector2 direction = (Player.transform.position - transform.position).normalized;
+
+            // Calcula la velocidad basada en la dirección y la velocidad deseada
+            Vector2 velocity = direction * speed;
+
+            // Aplica la velocidad al Rigidbody2D
+            rb.velocity = velocity;
+
+            distance = Vector2.Distance(Player.transform.position, transform.position);
+        
+    }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject == Player)
+        {
+            // Aquí es donde pones el código para dañar al jugador.
+            health.takeDamage(damage);
+        }
+    }
+    public void muerteEnemigo()
+    {
+        if (healthEnemy == 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+    public void setHealthEnemy(int playerDamage)
+    {
+        healthEnemy -= playerDamage;
+    }
+
 }
