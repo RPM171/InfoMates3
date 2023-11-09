@@ -12,7 +12,10 @@ public class Charactermovement : MonoBehaviour
     private Rigidbody2D rb;
     public GameObject personaje;
     bool isPaused = false;
-    public Animator animator;
+    private Animator animator;
+    public AnimacionKevin animacion;
+    bool idle = false;
+    private float IdleTime;
     
     
     
@@ -24,35 +27,45 @@ public class Charactermovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         targetPosition = transform.position;
-       // animator= GetComponentInChildren<Animator>();
+        animacion = GetComponent<AnimacionKevin>();
+        animator = GetComponent<Animator>();    
+       
         
     }
 
     // Update is called once per frame
    void Update()
+
 {
-    if (Input.GetMouseButtonDown(1)) // 1 is for right mouse button
-    {
-        targetPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 moveDirection = (targetPosition - rb.position).normalized;
 
-       /* if (moveDirection.magnitude > 0.1f)
+        if (Input.GetMouseButtonDown(1)) 
+
+    {       IdleTime = Time.time;
+            targetPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            moveDirection = (targetPosition - rb.position).normalized;
+    }
+        if (moveDirection.magnitude > 0.1f)
         {
             if (moveDirection.x > 0.1f)
             {
-                    animator.SetTrigger("RightTrigger");
+                idle = false;
+                animacion.WalkRigth(moveDirection.x);
+                
             }
             else if (moveDirection.x < -0.1f)
             {
-                    animator.SetTrigger("LeftTrigger");
+                idle = false;
+                animacion.WalkLeft(moveDirection.x);
+                
             }
-            }
-            else if(moveDirection.x ==0)
+            else if (moveDirection.x == 0 && Time.time < IdleTime + 0.5f)
             {
-                animator.SetTrigger("IdleTrigger");
-            }*/
+                idle = true;
+                animacion.IdlePlayer(idle);
+            }
+        }
     }
-}
 
 
     void FixedUpdate()
