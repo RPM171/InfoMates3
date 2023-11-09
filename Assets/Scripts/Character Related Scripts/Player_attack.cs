@@ -8,7 +8,9 @@ public class Player_attack : MonoBehaviour
     public Follow_Player enemy;
     private int damage;
     private Animation anim;
-    // Start is called before the first frame update
+    private bool attack = false;
+    public AnimacionKevin animacion;
+
     void Start()
     {
          anim = GetComponent<Animation>();
@@ -19,14 +21,15 @@ public class Player_attack : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            attack = true;
             Attack();
-
+            
         }
-        
+        attack = false;
     }
     void Attack()
     {
-        anim.Play("AttackLeft");
+        animacion.Atacar(attack);
     }
     void OnCollisionEnter2D(Collision2D collision)
     {

@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: WarriorRightAttack01_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 6
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977f91d161570bf4fba12af22caca7df
+      internalID: -1956071734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorRightAttack01_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 6
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4958f1b2f7c498478c108b5d87c9d00
+      internalID: 1871657215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorRightAttack01_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd1f0c6b9a480d4fbf2bba314b50c4c
+      internalID: -1879431503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorRightAttack01_3
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 5
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7616c2b11c3f2344fbf38a989170982f
+      internalID: 1723603632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorRightAttack01_4
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 5
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418eb77460d51a047825305962518914
+      internalID: 1338866527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WarriorRightAttack01_5
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 6
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb80edb2ea007d9458f061e2a7889a60
+      internalID: 1609519347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +258,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      WarriorRightAttack01_0: -1956071734
+      WarriorRightAttack01_1: 1871657215
+      WarriorRightAttack01_2: -1879431503
+      WarriorRightAttack01_3: 1723603632
+      WarriorRightAttack01_4: 1338866527
+      WarriorRightAttack01_5: 1609519347
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
