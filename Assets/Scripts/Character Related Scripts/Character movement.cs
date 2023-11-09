@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -15,7 +16,8 @@ public class Charactermovement : MonoBehaviour
     private Animator animator;
     public AnimacionKevin animacion;
     bool idle = false;
-    private float IdleTime;
+    bool boolAttack = false;
+    public Player_attack attack;
     
     
     
@@ -29,6 +31,7 @@ public class Charactermovement : MonoBehaviour
         targetPosition = transform.position;
         animacion = GetComponent<AnimacionKevin>();
         animator = GetComponent<Animator>();    
+        attack = GetComponent<Player_attack>();
        
         
     }
@@ -41,7 +44,7 @@ public class Charactermovement : MonoBehaviour
 
         if (Input.GetMouseButtonDown(1)) 
 
-    {       IdleTime = Time.time;
+    {       
             targetPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             moveDirection = (targetPosition - rb.position).normalized;
     }
@@ -51,20 +54,34 @@ public class Charactermovement : MonoBehaviour
             {
                 idle = false;
                 animacion.WalkRigth(moveDirection.x);
-                
+                if (Input.GetKeyDown(KeyCode.Escape))
+                {
+
+                    boolAttack = true;
+                    attack.Attack(boolAttack);
+                }
+                boolAttack = false;
             }
             else if (moveDirection.x < -0.1f)
             {
                 idle = false;
                 animacion.WalkLeft(moveDirection.x);
-                
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                boolAttack = true;
+                attack.Attack(boolAttack);
             }
-            else if (moveDirection.x == 0 && Time.time < IdleTime + 0.5f)
+            boolAttack = false;
+        }
+
+    }
+            else
             {
                 idle = true;
                 animacion.IdlePlayer(idle);
+                
             }
-        }
+            
     }
 
 

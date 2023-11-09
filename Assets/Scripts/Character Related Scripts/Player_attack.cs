@@ -7,27 +7,18 @@ public class Player_attack : MonoBehaviour
     
     public Follow_Player enemy;
     private int damage;
-    private Animation anim;
-    private bool attack = false;
     public AnimacionKevin animacion;
 
     void Start()
     {
-         anim = GetComponent<Animation>();
+         animacion = GetComponent<AnimacionKevin>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            attack = true;
-            Attack();
-            
-        }
-        attack = false;
     }
-    void Attack()
+    public void Attack(bool attack)
     {
         animacion.Atacar(attack);
     }
