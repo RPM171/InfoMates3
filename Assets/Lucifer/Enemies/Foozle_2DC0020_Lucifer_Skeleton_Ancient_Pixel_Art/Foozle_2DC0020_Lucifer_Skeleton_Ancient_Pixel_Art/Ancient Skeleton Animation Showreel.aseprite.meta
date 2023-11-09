@@ -1,0 +1,3832 @@
+fileFormatVersion: 2
+guid: 7a7b7dcfde15ced4e9a5ccb25f1baedd
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Ancient Skeleton Animation Showreel_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 240
+      height: 240
+    spriteID: 0954354337df66c48bb7809cb0f592a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Ancient Skeleton Animation Showreel_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 252
+      width: 240
+      height: 240
+    spriteID: 847da980c7f853747a88e7abe3becc64
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 252}
+  - name: Ancient Skeleton Animation Showreel_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 500
+      width: 240
+      height: 240
+    spriteID: cbf12e65781692d42b3f1c6b47734c9e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 500}
+  - name: Ancient Skeleton Animation Showreel_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 748
+      width: 240
+      height: 240
+    spriteID: 8fc70a7a7c5255e45a2da0b3445400d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 748}
+  - name: Ancient Skeleton Animation Showreel_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 996
+      width: 240
+      height: 240
+    spriteID: 2c0abd68cf9163741960d1f14fa1acb9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 996}
+  - name: Ancient Skeleton Animation Showreel_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1244
+      width: 240
+      height: 240
+    spriteID: 5424ab706aa10874798b56d664dac1d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1244}
+  - name: Ancient Skeleton Animation Showreel_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1492
+      width: 240
+      height: 240
+    spriteID: 8b6df398c6d1634449cdbb2c18022928
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1492}
+  - name: Ancient Skeleton Animation Showreel_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1740
+      width: 240
+      height: 240
+    spriteID: 249003b9365a38d4eabd1eeafe7652b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1740}
+  - name: Ancient Skeleton Animation Showreel_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1988
+      width: 240
+      height: 240
+    spriteID: 08e1aa253d87349468248ea9bc83fa97
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1988}
+  - name: Ancient Skeleton Animation Showreel_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2236
+      width: 240
+      height: 240
+    spriteID: 5449109692b73244c8390b9a8c8663a1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2236}
+  - name: Ancient Skeleton Animation Showreel_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2484
+      width: 240
+      height: 240
+    spriteID: 00e14f781733ca446aa3218ef31e414f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2484}
+  - name: Ancient Skeleton Animation Showreel_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2732
+      width: 240
+      height: 240
+    spriteID: a965822b43d266e468aa35a921cdac1d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2732}
+  - name: Ancient Skeleton Animation Showreel_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2980
+      width: 240
+      height: 240
+    spriteID: 292e0a0dadd61e949b68dca28c1f8cc3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2980}
+  - name: Ancient Skeleton Animation Showreel_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3228
+      width: 240
+      height: 240
+    spriteID: c128c2755bb03e84ea0b9fb682483166
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3228}
+  - name: Ancient Skeleton Animation Showreel_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3476
+      width: 240
+      height: 240
+    spriteID: 6752e49a8b839cc4389379853dc602ee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3476}
+  - name: Ancient Skeleton Animation Showreel_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3724
+      width: 240
+      height: 240
+    spriteID: 37897f7bee8ef0d46baea79db2a70ab3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3724}
+  - name: Ancient Skeleton Animation Showreel_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 252
+      y: 4
+      width: 240
+      height: 240
+    spriteID: 36acdd66bab934d43922f840ef7ecfed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 252, y: 4}
+  - name: Ancient Skeleton Animation Showreel_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 252
+      y: 252
+      width: 240
+      height: 240
+    spriteID: 73099730f13fffb42bdba253b8b25e4b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 252, y: 252}
+  - name: Ancient Skeleton Animation Showreel_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 252
+      y: 500
+      width: 240
+      height: 240
+    spriteID: ffaa88a35d3291146ab80632d195c0e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 252, y: 500}
+  - name: Ancient Skeleton Animation Showreel_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 252
+      y: 748
+      width: 240
+      height: 240
+    spriteID: a0f15e463e9286044b120d1acd2f8599
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 252, y: 748}
+  - name: Ancient Skeleton Animation Showreel_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 252
+      y: 996
+      width: 240
+      height: 240
+    spriteID: bc42f76c38d89644bacfd0811b8b473e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 252, y: 996}
+  - name: Ancient Skeleton Animation Showreel_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 252
+      y: 1244
+      width: 240
+      height: 240
+    spriteID: 26fdb104041e2af4cbb7df2caa968a3e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 252, y: 1244}
+  - name: Ancient Skeleton Animation Showreel_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 252
+      y: 1492
+      width: 240
+      height: 240
+    spriteID: 60ea659e4c2e8ef41826977e87ec1cc9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 252, y: 1492}
+  - name: Ancient Skeleton Animation Showreel_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 252
+      y: 1740
+      width: 240
+      height: 240
+    spriteID: 52d2f9e22a35fc94a9cc64557af4af86
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 252, y: 1740}
+  - name: Ancient Skeleton Animation Showreel_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 252
+      y: 1988
+      width: 240
+      height: 240
+    spriteID: af5226c0fe0b6774aa24b71a6ba0884f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 252, y: 1988}
+  - name: Ancient Skeleton Animation Showreel_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 252
+      y: 2236
+      width: 240
+      height: 240
+    spriteID: d66d996d7a905ba4a8f149c8e0546233
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 252, y: 2236}
+  - name: Ancient Skeleton Animation Showreel_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 252
+      y: 2484
+      width: 240
+      height: 240
+    spriteID: 606a86e79cb2d6243b415722972756e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 252, y: 2484}
+  - name: Ancient Skeleton Animation Showreel_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 252
+      y: 2732
+      width: 240
+      height: 240
+    spriteID: 98b4e8b6dd2fbc7419e6a44aaf1be050
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 252, y: 2732}
+  - name: Ancient Skeleton Animation Showreel_Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 252
+      y: 2980
+      width: 240
+      height: 240
+    spriteID: 8f5e1f12fc6f9db48aa81d65bc59e985
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 252, y: 2980}
+  - name: Ancient Skeleton Animation Showreel_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 252
+      y: 3228
+      width: 240
+      height: 240
+    spriteID: b1b688e9a3c33ea41949fd6522bf6e59
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 252, y: 3228}
+  - name: Ancient Skeleton Animation Showreel_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 252
+      y: 3476
+      width: 240
+      height: 240
+    spriteID: bab96828f5c87d44d96e8fcbfe57edf3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 252, y: 3476}
+  - name: Ancient Skeleton Animation Showreel_Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 252
+      y: 3724
+      width: 240
+      height: 240
+    spriteID: cc49185d6512ec0468b4b09828223436
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 252, y: 3724}
+  - name: Ancient Skeleton Animation Showreel_Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 500
+      y: 4
+      width: 240
+      height: 240
+    spriteID: c6f41e2d95590ec4bab1bedb8ceba37d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 500, y: 4}
+  - name: Ancient Skeleton Animation Showreel_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 500
+      y: 252
+      width: 240
+      height: 240
+    spriteID: ace8d1735890e6143a736d4a6d3ed8c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 500, y: 252}
+  - name: Ancient Skeleton Animation Showreel_Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 500
+      y: 500
+      width: 240
+      height: 240
+    spriteID: 7874445266d56fc4b8b1160d88d0f859
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 500, y: 500}
+  - name: Ancient Skeleton Animation Showreel_Frame_35
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 500
+      y: 748
+      width: 240
+      height: 240
+    spriteID: 2c8cda770fa988b4fbad464d848fbb36
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 500, y: 748}
+  - name: Ancient Skeleton Animation Showreel_Frame_36
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 500
+      y: 996
+      width: 240
+      height: 240
+    spriteID: f70244b029bc4064494531e5db0f5146
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 500, y: 996}
+  - name: Ancient Skeleton Animation Showreel_Frame_37
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 500
+      y: 1244
+      width: 240
+      height: 240
+    spriteID: b094e20b9df0e294e9975f25be8073b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 500, y: 1244}
+  - name: Ancient Skeleton Animation Showreel_Frame_38
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 500
+      y: 1492
+      width: 240
+      height: 240
+    spriteID: 9d17f45381954d24e85ed636af1a5f53
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 500, y: 1492}
+  - name: Ancient Skeleton Animation Showreel_Frame_39
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 500
+      y: 1740
+      width: 240
+      height: 240
+    spriteID: fd8e45eb23b7dde46868b1a6b45ab68c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 500, y: 1740}
+  - name: Ancient Skeleton Animation Showreel_Frame_40
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 500
+      y: 1988
+      width: 240
+      height: 240
+    spriteID: 019bb125bb5b36045bd09d92c9c0b671
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 500, y: 1988}
+  - name: Ancient Skeleton Animation Showreel_Frame_41
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 500
+      y: 2236
+      width: 240
+      height: 240
+    spriteID: eace0b44ca7ca6e489836a15fde07ddf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 500, y: 2236}
+  - name: Ancient Skeleton Animation Showreel_Frame_42
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 500
+      y: 2484
+      width: 240
+      height: 240
+    spriteID: 4085836ac388a5c4cbf34e4e633261d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 500, y: 2484}
+  - name: Ancient Skeleton Animation Showreel_Frame_43
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 500
+      y: 2732
+      width: 240
+      height: 240
+    spriteID: b37107e2018b58f45b8519c3427d5a1e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 500, y: 2732}
+  - name: Ancient Skeleton Animation Showreel_Frame_44
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 500
+      y: 2980
+      width: 240
+      height: 240
+    spriteID: 262583f92dfe73c448b396327f57755d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 500, y: 2980}
+  - name: Ancient Skeleton Animation Showreel_Frame_45
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 500
+      y: 3228
+      width: 240
+      height: 240
+    spriteID: 0ae0eabbed0673f4a9fbfddf1615d839
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 500, y: 3228}
+  - name: Ancient Skeleton Animation Showreel_Frame_46
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 500
+      y: 3476
+      width: 240
+      height: 240
+    spriteID: cf70c53d883f2d749aa7edcc3a6a3085
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 500, y: 3476}
+  - name: Ancient Skeleton Animation Showreel_Frame_47
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 500
+      y: 3724
+      width: 240
+      height: 240
+    spriteID: 277ccbc5e9fc8b44685860411e5ae683
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 500, y: 3724}
+  - name: Ancient Skeleton Animation Showreel_Frame_48
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 4
+      width: 240
+      height: 240
+    spriteID: 9206a7f596ad68748a59cb99793169b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 4}
+  - name: Ancient Skeleton Animation Showreel_Frame_49
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 252
+      width: 240
+      height: 240
+    spriteID: b098043e95b2e0745ae59f5f53a6dc51
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 252}
+  - name: Ancient Skeleton Animation Showreel_Frame_50
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 500
+      width: 240
+      height: 240
+    spriteID: 343c0e797eb893d4ab3c3a34cf5cfc30
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 500}
+  - name: Ancient Skeleton Animation Showreel_Frame_51
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 748
+      width: 240
+      height: 240
+    spriteID: f116cc282cf87b5419fe73b172cf18ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 748}
+  - name: Ancient Skeleton Animation Showreel_Frame_52
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 996
+      width: 240
+      height: 240
+    spriteID: 3b06016d9e5a49d43be26b5ae9ca924d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 996}
+  - name: Ancient Skeleton Animation Showreel_Frame_53
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 1244
+      width: 240
+      height: 240
+    spriteID: 5fc61385cb487d349837e9276a04f9b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 1244}
+  - name: Ancient Skeleton Animation Showreel_Frame_54
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 1492
+      width: 240
+      height: 240
+    spriteID: b95f0a801cad59140a08b062e9b449ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 1492}
+  - name: Ancient Skeleton Animation Showreel_Frame_55
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 1740
+      width: 240
+      height: 240
+    spriteID: 88d11da1924b12544a32f1c09cdad6c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 1740}
+  - name: Ancient Skeleton Animation Showreel_Frame_56
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 1988
+      width: 240
+      height: 240
+    spriteID: 9757b0a99ccaede4d83dbeed24249a98
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 1988}
+  - name: Ancient Skeleton Animation Showreel_Frame_57
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 2236
+      width: 240
+      height: 240
+    spriteID: 06938f88251e6504c953c2a247b85cba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 2236}
+  - name: Ancient Skeleton Animation Showreel_Frame_58
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 2484
+      width: 240
+      height: 240
+    spriteID: 6bfaf510bbd129542817d0f6ef6efa5c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 2484}
+  - name: Ancient Skeleton Animation Showreel_Frame_59
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 2732
+      width: 240
+      height: 240
+    spriteID: 9a656445a5bbbde44ad4808096cc0439
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 2732}
+  - name: Ancient Skeleton Animation Showreel_Frame_60
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 2980
+      width: 240
+      height: 240
+    spriteID: 06e8148152bfc1d49b458efa76ffb4d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 2980}
+  - name: Ancient Skeleton Animation Showreel_Frame_61
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 3228
+      width: 240
+      height: 240
+    spriteID: a32d4a5ebe7b3a449948447e77d0e91c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 3228}
+  - name: Ancient Skeleton Animation Showreel_Frame_62
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 3476
+      width: 240
+      height: 240
+    spriteID: 66a69e29dc684be47a592f6428492b92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 3476}
+  - name: Ancient Skeleton Animation Showreel_Frame_63
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 748
+      y: 3724
+      width: 240
+      height: 240
+    spriteID: db84b7d308c440a4b9b0292b7314f5ed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 748, y: 3724}
+  - name: Ancient Skeleton Animation Showreel_Frame_64
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 996
+      y: 4
+      width: 240
+      height: 240
+    spriteID: d3496ae444cb15449905357058e97410
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 996, y: 4}
+  - name: Ancient Skeleton Animation Showreel_Frame_65
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 996
+      y: 252
+      width: 240
+      height: 240
+    spriteID: 0288a19000f6d2a459fb2abc82c4bd8d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 996, y: 252}
+  - name: Ancient Skeleton Animation Showreel_Frame_66
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 996
+      y: 500
+      width: 240
+      height: 240
+    spriteID: 776cc1bf8a7181e479031dea054e5b1b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 996, y: 500}
+  - name: Ancient Skeleton Animation Showreel_Frame_67
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 996
+      y: 748
+      width: 240
+      height: 240
+    spriteID: e88eb949f4633274098340e2d9005234
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 996, y: 748}
+  - name: Ancient Skeleton Animation Showreel_Frame_68
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 996
+      y: 996
+      width: 240
+      height: 240
+    spriteID: 9aa2e6971f088374c855fb38d9087458
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 996, y: 996}
+  - name: Ancient Skeleton Animation Showreel_Frame_69
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 996
+      y: 1244
+      width: 240
+      height: 240
+    spriteID: c51106bf4ab99c44b8f1cd7894f5d19e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 996, y: 1244}
+  - name: Ancient Skeleton Animation Showreel_Frame_70
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 996
+      y: 1492
+      width: 240
+      height: 240
+    spriteID: 50e2f3f2ea5c1c940b86ffee5534d114
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 996, y: 1492}
+  - name: Ancient Skeleton Animation Showreel_Frame_71
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 996
+      y: 1740
+      width: 240
+      height: 240
+    spriteID: b7451c9c01859f64f88477f9a38e5ea9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 996, y: 1740}
+  - name: Ancient Skeleton Animation Showreel_Frame_72
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 996
+      y: 1988
+      width: 240
+      height: 240
+    spriteID: 1e9b2f4319d2cdd458ae9dce449a9e42
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 996, y: 1988}
+  - name: Ancient Skeleton Animation Showreel_Frame_73
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 996
+      y: 2236
+      width: 240
+      height: 240
+    spriteID: c81157b67e775e64fa8a2afcef354a3c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 996, y: 2236}
+  - name: Ancient Skeleton Animation Showreel_Frame_74
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 996
+      y: 2484
+      width: 240
+      height: 240
+    spriteID: a89950159c6117641bdaa0d3588f7d1a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 996, y: 2484}
+  - name: Ancient Skeleton Animation Showreel_Frame_75
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 996
+      y: 2732
+      width: 240
+      height: 240
+    spriteID: b617616ec10730d4eb273b68209646b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 996, y: 2732}
+  - name: Ancient Skeleton Animation Showreel_Frame_76
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 996
+      y: 2980
+      width: 240
+      height: 240
+    spriteID: 35ba24118001dd54cb9e4359a62546de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 996, y: 2980}
+  - name: Ancient Skeleton Animation Showreel_Frame_77
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 996
+      y: 3228
+      width: 240
+      height: 240
+    spriteID: a06dc1844cf7a8145983edb0e44708a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 996, y: 3228}
+  - name: Ancient Skeleton Animation Showreel_Frame_78
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 996
+      y: 3476
+      width: 240
+      height: 240
+    spriteID: 639e57082a152454fad2d9998b4808b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 996, y: 3476}
+  - name: Ancient Skeleton Animation Showreel_Frame_79
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 996
+      y: 3724
+      width: 240
+      height: 240
+    spriteID: 003998716f57a5040bf3fa89e8f25248
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 996, y: 3724}
+  - name: Ancient Skeleton Animation Showreel_Frame_80
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1244
+      y: 4
+      width: 240
+      height: 240
+    spriteID: a4d6210f655f05346bacb7574a5334f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1244, y: 4}
+  - name: Ancient Skeleton Animation Showreel_Frame_81
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1244
+      y: 252
+      width: 240
+      height: 240
+    spriteID: 0e03cdc6885fd364db7fb57c65573a65
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1244, y: 252}
+  - name: Ancient Skeleton Animation Showreel_Frame_82
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1244
+      y: 500
+      width: 240
+      height: 240
+    spriteID: f8543b0e14999bf4888ee9fb5cd08e41
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1244, y: 500}
+  - name: Ancient Skeleton Animation Showreel_Frame_83
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1244
+      y: 748
+      width: 240
+      height: 240
+    spriteID: 6ad93166425eb6f40a564a0d4f9ae2fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1244, y: 748}
+  - name: Ancient Skeleton Animation Showreel_Frame_84
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1244
+      y: 996
+      width: 240
+      height: 240
+    spriteID: 1f96cfe35a71bad4f80a3c9f51aec6eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1244, y: 996}
+  - name: Ancient Skeleton Animation Showreel_Frame_85
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1244
+      y: 1244
+      width: 240
+      height: 240
+    spriteID: e710f1f45c45bb947b31ae3fd4c1e140
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1244, y: 1244}
+  - name: Ancient Skeleton Animation Showreel_Frame_86
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1244
+      y: 1492
+      width: 240
+      height: 240
+    spriteID: 5a5f3e1eeba411a418e9ca3163e7ba38
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1244, y: 1492}
+  - name: Ancient Skeleton Animation Showreel_Frame_87
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1244
+      y: 1740
+      width: 240
+      height: 240
+    spriteID: 215eba93223d31c40a69cc3d4299ca2b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1244, y: 1740}
+  - name: Ancient Skeleton Animation Showreel_Frame_88
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1244
+      y: 1988
+      width: 240
+      height: 240
+    spriteID: e5e5dd1ddb3dff04aa02165364ad65c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1244, y: 1988}
+  - name: Ancient Skeleton Animation Showreel_Frame_89
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1244
+      y: 2236
+      width: 240
+      height: 240
+    spriteID: 9e4b9621ab52c00489daa9ef8c3cf19c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1244, y: 2236}
+  - name: Ancient Skeleton Animation Showreel_Frame_90
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1244
+      y: 2484
+      width: 240
+      height: 240
+    spriteID: fbcc2b4cf7b6d4b41b17225585a06209
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1244, y: 2484}
+  - name: Ancient Skeleton Animation Showreel_Frame_91
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1244
+      y: 2732
+      width: 240
+      height: 240
+    spriteID: 849ce17c226552045af11de9305a5eef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1244, y: 2732}
+  - name: Ancient Skeleton Animation Showreel_Frame_92
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1244
+      y: 2980
+      width: 240
+      height: 240
+    spriteID: 5404f4d462317c9478c12a61b7d5bb16
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1244, y: 2980}
+  - name: Ancient Skeleton Animation Showreel_Frame_93
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1244
+      y: 3228
+      width: 240
+      height: 240
+    spriteID: c21b8a343b1aacf42ac6e2b4e1100c17
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1244, y: 3228}
+  - name: Ancient Skeleton Animation Showreel_Frame_94
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1244
+      y: 3476
+      width: 240
+      height: 240
+    spriteID: 017bcd551eb05e042a3ad7fc8b75f12d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1244, y: 3476}
+  - name: Ancient Skeleton Animation Showreel_Frame_95
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1244
+      y: 3724
+      width: 240
+      height: 240
+    spriteID: 29c26e375c5aba44a991fc147095b24d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1244, y: 3724}
+  - name: Ancient Skeleton Animation Showreel_Frame_96
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1492
+      y: 4
+      width: 240
+      height: 240
+    spriteID: 023d89b2cf7561d4ab1075ae66b6e24a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1492, y: 4}
+  - name: Ancient Skeleton Animation Showreel_Frame_97
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1492
+      y: 252
+      width: 240
+      height: 240
+    spriteID: f4b8caafa341be84ba576cc70ff3f0dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1492, y: 252}
+  - name: Ancient Skeleton Animation Showreel_Frame_98
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1492
+      y: 500
+      width: 240
+      height: 240
+    spriteID: d3cce237c97696846aa059aa85e2f702
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1492, y: 500}
+  - name: Ancient Skeleton Animation Showreel_Frame_99
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1492
+      y: 748
+      width: 240
+      height: 240
+    spriteID: 6b42799e8e71e334b811f4a48cd711a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1492, y: 748}
+  - name: Ancient Skeleton Animation Showreel_Frame_100
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1492
+      y: 996
+      width: 240
+      height: 240
+    spriteID: 753aa09e312c8c84c9bfa3305d5ce1b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1492, y: 996}
+  - name: Ancient Skeleton Animation Showreel_Frame_101
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1492
+      y: 1244
+      width: 240
+      height: 240
+    spriteID: 203d3a6173d06af41bb857da05029635
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1492, y: 1244}
+  - name: Ancient Skeleton Animation Showreel_Frame_102
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1492
+      y: 1492
+      width: 240
+      height: 240
+    spriteID: 1c2d7de544fb7dc4997d446e5c8a859f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1492, y: 1492}
+  - name: Ancient Skeleton Animation Showreel_Frame_103
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1492
+      y: 1740
+      width: 240
+      height: 240
+    spriteID: bc0008318ea01e44c9be6679573321f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1492, y: 1740}
+  - name: Ancient Skeleton Animation Showreel_Frame_104
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1492
+      y: 1988
+      width: 240
+      height: 240
+    spriteID: b98228c5bdfaddd4fb969cfb55597c0f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1492, y: 1988}
+  - name: Ancient Skeleton Animation Showreel_Frame_105
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1492
+      y: 2236
+      width: 240
+      height: 240
+    spriteID: 332a5ea0e766ca246a7050beb630ef88
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1492, y: 2236}
+  - name: Ancient Skeleton Animation Showreel_Frame_106
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1492
+      y: 2484
+      width: 240
+      height: 240
+    spriteID: 880ff7edecf27f84bb0439ced67f4283
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1492, y: 2484}
+  - name: Ancient Skeleton Animation Showreel_Frame_107
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1492
+      y: 2732
+      width: 240
+      height: 240
+    spriteID: b5638a7458f5931418e3c419e1d251c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1492, y: 2732}
+  - name: Ancient Skeleton Animation Showreel_Frame_108
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1492
+      y: 2980
+      width: 240
+      height: 240
+    spriteID: 44e848055a498d84cb57ca69c147e8ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1492, y: 2980}
+  - name: Ancient Skeleton Animation Showreel_Frame_109
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1492
+      y: 3228
+      width: 240
+      height: 240
+    spriteID: 00ea8aca449921f4198a21375d639ae0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1492, y: 3228}
+  - name: Ancient Skeleton Animation Showreel_Frame_110
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1492
+      y: 3476
+      width: 240
+      height: 240
+    spriteID: de2f09dce6ae0034083d77763a5ae8d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1492, y: 3476}
+  - name: Ancient Skeleton Animation Showreel_Frame_111
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1492
+      y: 3724
+      width: 240
+      height: 240
+    spriteID: 15b7c349e5e34fc4e990aef1e8a380d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1492, y: 3724}
+  - name: Ancient Skeleton Animation Showreel_Frame_112
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1740
+      y: 4
+      width: 240
+      height: 240
+    spriteID: 45c09be9d6a2799459107944014bb89a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1740, y: 4}
+  - name: Ancient Skeleton Animation Showreel_Frame_113
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1740
+      y: 252
+      width: 240
+      height: 240
+    spriteID: d928ed1f8cd8a4a4eb15cb5622ddc059
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1740, y: 252}
+  - name: Ancient Skeleton Animation Showreel_Frame_114
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1740
+      y: 500
+      width: 240
+      height: 240
+    spriteID: f2883c206fcf52946b8524c1d71a8b22
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1740, y: 500}
+  - name: Ancient Skeleton Animation Showreel_Frame_115
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1740
+      y: 748
+      width: 240
+      height: 240
+    spriteID: d96d192dc308e504485e5f798765d2ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1740, y: 748}
+  - name: Ancient Skeleton Animation Showreel_Frame_116
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1740
+      y: 996
+      width: 240
+      height: 240
+    spriteID: 06d46b82232d52c49b2f2e51b588d74a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1740, y: 996}
+  - name: Ancient Skeleton Animation Showreel_Frame_117
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1740
+      y: 1244
+      width: 240
+      height: 240
+    spriteID: 3947b0861a398af4eac4d55e950ff39f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1740, y: 1244}
+  - name: Ancient Skeleton Animation Showreel_Frame_118
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1740
+      y: 1492
+      width: 240
+      height: 240
+    spriteID: 54c0e4e55c692f54d875fd8daff7695e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1740, y: 1492}
+  - name: Ancient Skeleton Animation Showreel_Frame_119
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1740
+      y: 1740
+      width: 240
+      height: 240
+    spriteID: fb39842d3d7b257429cb6e1075de237f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1740, y: 1740}
+  - name: Ancient Skeleton Animation Showreel_Frame_120
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1740
+      y: 1988
+      width: 240
+      height: 240
+    spriteID: 95e5a0a007575984f843d0afa58424f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1740, y: 1988}
+  - name: Ancient Skeleton Animation Showreel_Frame_121
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1740
+      y: 2236
+      width: 240
+      height: 240
+    spriteID: e364078835312d44d9278b10c9ca9ff7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1740, y: 2236}
+  - name: Ancient Skeleton Animation Showreel_Frame_122
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1740
+      y: 2484
+      width: 240
+      height: 240
+    spriteID: cea09f4c93e3bad42af6f4ed96205faf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1740, y: 2484}
+  - name: Ancient Skeleton Animation Showreel_Frame_123
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1740
+      y: 2732
+      width: 240
+      height: 240
+    spriteID: 113bbee7309079e4abd6a2131840687d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1740, y: 2732}
+  - name: Ancient Skeleton Animation Showreel_Frame_124
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1740
+      y: 2980
+      width: 240
+      height: 240
+    spriteID: e037abfe9755dcc4cbe3413be14b0ab2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1740, y: 2980}
+  - name: Ancient Skeleton Animation Showreel_Frame_125
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1740
+      y: 3228
+      width: 240
+      height: 240
+    spriteID: af97192bcd6ba414192742088a204b39
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1740, y: 3228}
+  - name: Ancient Skeleton Animation Showreel_Frame_126
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1740
+      y: 3476
+      width: 240
+      height: 240
+    spriteID: 59091eae68feaf3459f10d12451b1487
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1740, y: 3476}
+  - name: Ancient Skeleton Animation Showreel_Frame_127
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1740
+      y: 3724
+      width: 240
+      height: 240
+    spriteID: 1fcf1406950ad5247bb11e9599279b88
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1740, y: 3724}
+  - name: Ancient Skeleton Animation Showreel_Frame_128
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1988
+      y: 4
+      width: 240
+      height: 240
+    spriteID: 8d16a7571d8767343a4add26a460b70d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1988, y: 4}
+  - name: Ancient Skeleton Animation Showreel_Frame_129
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1988
+      y: 252
+      width: 240
+      height: 240
+    spriteID: e8c861ae24f2e354eb341ffba775b318
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1988, y: 252}
+  - name: Ancient Skeleton Animation Showreel_Frame_130
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1988
+      y: 500
+      width: 240
+      height: 240
+    spriteID: c2449661717490d42a4b016ff5abe69e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1988, y: 500}
+  - name: Ancient Skeleton Animation Showreel_Frame_131
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1988
+      y: 748
+      width: 240
+      height: 240
+    spriteID: ceb33eecb9988e8458b3a3cbd158b12a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1988, y: 748}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1039728472
+    name: Ancient Skeleton Animation Showreel
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Ancient Skeleton Animation Showreel_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 0954354337df66c48bb7809cb0f592a6
+    - name: Ancient Skeleton Animation Showreel_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 847da980c7f853747a88e7abe3becc64
+    - name: Ancient Skeleton Animation Showreel_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: cbf12e65781692d42b3f1c6b47734c9e
+    - name: Ancient Skeleton Animation Showreel_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 8fc70a7a7c5255e45a2da0b3445400d0
+    - name: Ancient Skeleton Animation Showreel_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 2c0abd68cf9163741960d1f14fa1acb9
+    - name: Ancient Skeleton Animation Showreel_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 5424ab706aa10874798b56d664dac1d1
+    - name: Ancient Skeleton Animation Showreel_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 8b6df398c6d1634449cdbb2c18022928
+    - name: Ancient Skeleton Animation Showreel_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 249003b9365a38d4eabd1eeafe7652b2
+    - name: Ancient Skeleton Animation Showreel_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 08e1aa253d87349468248ea9bc83fa97
+    - name: Ancient Skeleton Animation Showreel_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 5449109692b73244c8390b9a8c8663a1
+    - name: Ancient Skeleton Animation Showreel_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 00e14f781733ca446aa3218ef31e414f
+    - name: Ancient Skeleton Animation Showreel_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: a965822b43d266e468aa35a921cdac1d
+    - name: Ancient Skeleton Animation Showreel_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 292e0a0dadd61e949b68dca28c1f8cc3
+    - name: Ancient Skeleton Animation Showreel_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: c128c2755bb03e84ea0b9fb682483166
+    - name: Ancient Skeleton Animation Showreel_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 6752e49a8b839cc4389379853dc602ee
+    - name: Ancient Skeleton Animation Showreel_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 37897f7bee8ef0d46baea79db2a70ab3
+    - name: Ancient Skeleton Animation Showreel_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 36acdd66bab934d43922f840ef7ecfed
+    - name: Ancient Skeleton Animation Showreel_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 73099730f13fffb42bdba253b8b25e4b
+    - name: Ancient Skeleton Animation Showreel_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: ffaa88a35d3291146ab80632d195c0e4
+    - name: Ancient Skeleton Animation Showreel_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: a0f15e463e9286044b120d1acd2f8599
+    - name: Ancient Skeleton Animation Showreel_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: bc42f76c38d89644bacfd0811b8b473e
+    - name: Ancient Skeleton Animation Showreel_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 26fdb104041e2af4cbb7df2caa968a3e
+    - name: Ancient Skeleton Animation Showreel_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 60ea659e4c2e8ef41826977e87ec1cc9
+    - name: Ancient Skeleton Animation Showreel_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 52d2f9e22a35fc94a9cc64557af4af86
+    - name: Ancient Skeleton Animation Showreel_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: af5226c0fe0b6774aa24b71a6ba0884f
+    - name: Ancient Skeleton Animation Showreel_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: d66d996d7a905ba4a8f149c8e0546233
+    - name: Ancient Skeleton Animation Showreel_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 606a86e79cb2d6243b415722972756e9
+    - name: Ancient Skeleton Animation Showreel_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 98b4e8b6dd2fbc7419e6a44aaf1be050
+    - name: Ancient Skeleton Animation Showreel_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 8f5e1f12fc6f9db48aa81d65bc59e985
+    - name: Ancient Skeleton Animation Showreel_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: b1b688e9a3c33ea41949fd6522bf6e59
+    - name: Ancient Skeleton Animation Showreel_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: bab96828f5c87d44d96e8fcbfe57edf3
+    - name: Ancient Skeleton Animation Showreel_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: cc49185d6512ec0468b4b09828223436
+    - name: Ancient Skeleton Animation Showreel_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: c6f41e2d95590ec4bab1bedb8ceba37d
+    - name: Ancient Skeleton Animation Showreel_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: ace8d1735890e6143a736d4a6d3ed8c9
+    - name: Ancient Skeleton Animation Showreel_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 7874445266d56fc4b8b1160d88d0f859
+    - name: Ancient Skeleton Animation Showreel_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 2c8cda770fa988b4fbad464d848fbb36
+    - name: Ancient Skeleton Animation Showreel_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: f70244b029bc4064494531e5db0f5146
+    - name: Ancient Skeleton Animation Showreel_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: b094e20b9df0e294e9975f25be8073b7
+    - name: Ancient Skeleton Animation Showreel_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 9d17f45381954d24e85ed636af1a5f53
+    - name: Ancient Skeleton Animation Showreel_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: fd8e45eb23b7dde46868b1a6b45ab68c
+    - name: Ancient Skeleton Animation Showreel_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 019bb125bb5b36045bd09d92c9c0b671
+    - name: Ancient Skeleton Animation Showreel_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: eace0b44ca7ca6e489836a15fde07ddf
+    - name: Ancient Skeleton Animation Showreel_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 4085836ac388a5c4cbf34e4e633261d1
+    - name: Ancient Skeleton Animation Showreel_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: b37107e2018b58f45b8519c3427d5a1e
+    - name: Ancient Skeleton Animation Showreel_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 262583f92dfe73c448b396327f57755d
+    - name: Ancient Skeleton Animation Showreel_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 0ae0eabbed0673f4a9fbfddf1615d839
+    - name: Ancient Skeleton Animation Showreel_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: cf70c53d883f2d749aa7edcc3a6a3085
+    - name: Ancient Skeleton Animation Showreel_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 277ccbc5e9fc8b44685860411e5ae683
+    - name: Ancient Skeleton Animation Showreel_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 9206a7f596ad68748a59cb99793169b3
+    - name: Ancient Skeleton Animation Showreel_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: b098043e95b2e0745ae59f5f53a6dc51
+    - name: Ancient Skeleton Animation Showreel_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 343c0e797eb893d4ab3c3a34cf5cfc30
+    - name: Ancient Skeleton Animation Showreel_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: f116cc282cf87b5419fe73b172cf18ef
+    - name: Ancient Skeleton Animation Showreel_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 3b06016d9e5a49d43be26b5ae9ca924d
+    - name: Ancient Skeleton Animation Showreel_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 5fc61385cb487d349837e9276a04f9b3
+    - name: Ancient Skeleton Animation Showreel_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: b95f0a801cad59140a08b062e9b449ba
+    - name: Ancient Skeleton Animation Showreel_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 88d11da1924b12544a32f1c09cdad6c7
+    - name: Ancient Skeleton Animation Showreel_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 9757b0a99ccaede4d83dbeed24249a98
+    - name: Ancient Skeleton Animation Showreel_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 06938f88251e6504c953c2a247b85cba
+    - name: Ancient Skeleton Animation Showreel_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 6bfaf510bbd129542817d0f6ef6efa5c
+    - name: Ancient Skeleton Animation Showreel_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 9a656445a5bbbde44ad4808096cc0439
+    - name: Ancient Skeleton Animation Showreel_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 06e8148152bfc1d49b458efa76ffb4d6
+    - name: Ancient Skeleton Animation Showreel_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: a32d4a5ebe7b3a449948447e77d0e91c
+    - name: Ancient Skeleton Animation Showreel_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 66a69e29dc684be47a592f6428492b92
+    - name: Ancient Skeleton Animation Showreel_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: db84b7d308c440a4b9b0292b7314f5ed
+    - name: Ancient Skeleton Animation Showreel_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: d3496ae444cb15449905357058e97410
+    - name: Ancient Skeleton Animation Showreel_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 0288a19000f6d2a459fb2abc82c4bd8d
+    - name: Ancient Skeleton Animation Showreel_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 776cc1bf8a7181e479031dea054e5b1b
+    - name: Ancient Skeleton Animation Showreel_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: e88eb949f4633274098340e2d9005234
+    - name: Ancient Skeleton Animation Showreel_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 9aa2e6971f088374c855fb38d9087458
+    - name: Ancient Skeleton Animation Showreel_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: c51106bf4ab99c44b8f1cd7894f5d19e
+    - name: Ancient Skeleton Animation Showreel_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 50e2f3f2ea5c1c940b86ffee5534d114
+    - name: Ancient Skeleton Animation Showreel_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: b7451c9c01859f64f88477f9a38e5ea9
+    - name: Ancient Skeleton Animation Showreel_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 1e9b2f4319d2cdd458ae9dce449a9e42
+    - name: Ancient Skeleton Animation Showreel_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: c81157b67e775e64fa8a2afcef354a3c
+    - name: Ancient Skeleton Animation Showreel_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: a89950159c6117641bdaa0d3588f7d1a
+    - name: Ancient Skeleton Animation Showreel_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: b617616ec10730d4eb273b68209646b6
+    - name: Ancient Skeleton Animation Showreel_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 35ba24118001dd54cb9e4359a62546de
+    - name: Ancient Skeleton Animation Showreel_Frame_77
+      frameIndex: 77
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: a06dc1844cf7a8145983edb0e44708a6
+    - name: Ancient Skeleton Animation Showreel_Frame_78
+      frameIndex: 78
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 639e57082a152454fad2d9998b4808b2
+    - name: Ancient Skeleton Animation Showreel_Frame_79
+      frameIndex: 79
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 003998716f57a5040bf3fa89e8f25248
+    - name: Ancient Skeleton Animation Showreel_Frame_80
+      frameIndex: 80
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: a4d6210f655f05346bacb7574a5334f5
+    - name: Ancient Skeleton Animation Showreel_Frame_81
+      frameIndex: 81
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 0e03cdc6885fd364db7fb57c65573a65
+    - name: Ancient Skeleton Animation Showreel_Frame_82
+      frameIndex: 82
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: f8543b0e14999bf4888ee9fb5cd08e41
+    - name: Ancient Skeleton Animation Showreel_Frame_83
+      frameIndex: 83
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 6ad93166425eb6f40a564a0d4f9ae2fa
+    - name: Ancient Skeleton Animation Showreel_Frame_84
+      frameIndex: 84
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 1f96cfe35a71bad4f80a3c9f51aec6eb
+    - name: Ancient Skeleton Animation Showreel_Frame_85
+      frameIndex: 85
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: e710f1f45c45bb947b31ae3fd4c1e140
+    - name: Ancient Skeleton Animation Showreel_Frame_86
+      frameIndex: 86
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 5a5f3e1eeba411a418e9ca3163e7ba38
+    - name: Ancient Skeleton Animation Showreel_Frame_87
+      frameIndex: 87
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 215eba93223d31c40a69cc3d4299ca2b
+    - name: Ancient Skeleton Animation Showreel_Frame_88
+      frameIndex: 88
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: e5e5dd1ddb3dff04aa02165364ad65c9
+    - name: Ancient Skeleton Animation Showreel_Frame_89
+      frameIndex: 89
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 9e4b9621ab52c00489daa9ef8c3cf19c
+    - name: Ancient Skeleton Animation Showreel_Frame_90
+      frameIndex: 90
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: fbcc2b4cf7b6d4b41b17225585a06209
+    - name: Ancient Skeleton Animation Showreel_Frame_91
+      frameIndex: 91
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 849ce17c226552045af11de9305a5eef
+    - name: Ancient Skeleton Animation Showreel_Frame_92
+      frameIndex: 92
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 5404f4d462317c9478c12a61b7d5bb16
+    - name: Ancient Skeleton Animation Showreel_Frame_93
+      frameIndex: 93
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: c21b8a343b1aacf42ac6e2b4e1100c17
+    - name: Ancient Skeleton Animation Showreel_Frame_94
+      frameIndex: 94
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 017bcd551eb05e042a3ad7fc8b75f12d
+    - name: Ancient Skeleton Animation Showreel_Frame_95
+      frameIndex: 95
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 29c26e375c5aba44a991fc147095b24d
+    - name: Ancient Skeleton Animation Showreel_Frame_96
+      frameIndex: 96
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 023d89b2cf7561d4ab1075ae66b6e24a
+    - name: Ancient Skeleton Animation Showreel_Frame_97
+      frameIndex: 97
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: f4b8caafa341be84ba576cc70ff3f0dd
+    - name: Ancient Skeleton Animation Showreel_Frame_98
+      frameIndex: 98
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: d3cce237c97696846aa059aa85e2f702
+    - name: Ancient Skeleton Animation Showreel_Frame_99
+      frameIndex: 99
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 6b42799e8e71e334b811f4a48cd711a4
+    - name: Ancient Skeleton Animation Showreel_Frame_100
+      frameIndex: 100
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 753aa09e312c8c84c9bfa3305d5ce1b2
+    - name: Ancient Skeleton Animation Showreel_Frame_101
+      frameIndex: 101
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 203d3a6173d06af41bb857da05029635
+    - name: Ancient Skeleton Animation Showreel_Frame_102
+      frameIndex: 102
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 1c2d7de544fb7dc4997d446e5c8a859f
+    - name: Ancient Skeleton Animation Showreel_Frame_103
+      frameIndex: 103
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: bc0008318ea01e44c9be6679573321f3
+    - name: Ancient Skeleton Animation Showreel_Frame_104
+      frameIndex: 104
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: b98228c5bdfaddd4fb969cfb55597c0f
+    - name: Ancient Skeleton Animation Showreel_Frame_105
+      frameIndex: 105
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 332a5ea0e766ca246a7050beb630ef88
+    - name: Ancient Skeleton Animation Showreel_Frame_106
+      frameIndex: 106
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 880ff7edecf27f84bb0439ced67f4283
+    - name: Ancient Skeleton Animation Showreel_Frame_107
+      frameIndex: 107
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: b5638a7458f5931418e3c419e1d251c1
+    - name: Ancient Skeleton Animation Showreel_Frame_108
+      frameIndex: 108
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 44e848055a498d84cb57ca69c147e8ff
+    - name: Ancient Skeleton Animation Showreel_Frame_109
+      frameIndex: 109
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 00ea8aca449921f4198a21375d639ae0
+    - name: Ancient Skeleton Animation Showreel_Frame_110
+      frameIndex: 110
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: de2f09dce6ae0034083d77763a5ae8d6
+    - name: Ancient Skeleton Animation Showreel_Frame_111
+      frameIndex: 111
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 15b7c349e5e34fc4e990aef1e8a380d2
+    - name: Ancient Skeleton Animation Showreel_Frame_112
+      frameIndex: 112
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 45c09be9d6a2799459107944014bb89a
+    - name: Ancient Skeleton Animation Showreel_Frame_113
+      frameIndex: 113
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: d928ed1f8cd8a4a4eb15cb5622ddc059
+    - name: Ancient Skeleton Animation Showreel_Frame_114
+      frameIndex: 114
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: f2883c206fcf52946b8524c1d71a8b22
+    - name: Ancient Skeleton Animation Showreel_Frame_115
+      frameIndex: 115
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: d96d192dc308e504485e5f798765d2ea
+    - name: Ancient Skeleton Animation Showreel_Frame_116
+      frameIndex: 116
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 06d46b82232d52c49b2f2e51b588d74a
+    - name: Ancient Skeleton Animation Showreel_Frame_117
+      frameIndex: 117
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 3947b0861a398af4eac4d55e950ff39f
+    - name: Ancient Skeleton Animation Showreel_Frame_118
+      frameIndex: 118
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 54c0e4e55c692f54d875fd8daff7695e
+    - name: Ancient Skeleton Animation Showreel_Frame_119
+      frameIndex: 119
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: fb39842d3d7b257429cb6e1075de237f
+    - name: Ancient Skeleton Animation Showreel_Frame_120
+      frameIndex: 120
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 95e5a0a007575984f843d0afa58424f8
+    - name: Ancient Skeleton Animation Showreel_Frame_121
+      frameIndex: 121
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: e364078835312d44d9278b10c9ca9ff7
+    - name: Ancient Skeleton Animation Showreel_Frame_122
+      frameIndex: 122
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: cea09f4c93e3bad42af6f4ed96205faf
+    - name: Ancient Skeleton Animation Showreel_Frame_123
+      frameIndex: 123
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 113bbee7309079e4abd6a2131840687d
+    - name: Ancient Skeleton Animation Showreel_Frame_124
+      frameIndex: 124
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: e037abfe9755dcc4cbe3413be14b0ab2
+    - name: Ancient Skeleton Animation Showreel_Frame_125
+      frameIndex: 125
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: af97192bcd6ba414192742088a204b39
+    - name: Ancient Skeleton Animation Showreel_Frame_126
+      frameIndex: 126
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 59091eae68feaf3459f10d12451b1487
+    - name: Ancient Skeleton Animation Showreel_Frame_127
+      frameIndex: 127
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 1fcf1406950ad5247bb11e9599279b88
+    - name: Ancient Skeleton Animation Showreel_Frame_128
+      frameIndex: 128
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: 8d16a7571d8767343a4add26a460b70d
+    - name: Ancient Skeleton Animation Showreel_Frame_129
+      frameIndex: 129
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: e8c861ae24f2e354eb341ffba775b318
+    - name: Ancient Skeleton Animation Showreel_Frame_130
+      frameIndex: 130
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: c2449661717490d42a4b016ff5abe69e
+    - name: Ancient Skeleton Animation Showreel_Frame_131
+      frameIndex: 131
+      cellRect:
+        x: 0
+        y: 0
+        width: 240
+        height: 240
+      spriteId: ceb33eecb9988e8458b3a3cbd158b12a
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 240, y: 240}
