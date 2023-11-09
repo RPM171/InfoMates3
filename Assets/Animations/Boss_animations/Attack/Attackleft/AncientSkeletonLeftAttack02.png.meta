@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: de9d684aa047c854db237b7a30c0741c
+guid: 74c7291b193c4bc47aa4397893dba746
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AncientSkeletonDownIdle_0
+      name: AncientSkeletonLeftAttack02_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 17
-        width: 35
-        height: 55
+        x: 16
+        y: 15
+        width: 48
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f60e3c6b611717e4b9c5b71d46562eed
-      internalID: -1066993722
+      spriteID: 0b088dfbef6f80a4bbbe3afeced4a01d
+      internalID: -1202925115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AncientSkeletonDownIdle_1
+      name: AncientSkeletonLeftAttack02_1
       rect:
         serializedVersion: 2
-        x: 100
-        y: 17
-        width: 35
-        height: 55
+        x: 96
+        y: 8
+        width: 56
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d7d948f23c28fa46b3377ccc2c7d2d2
-      internalID: 1881461435
+      spriteID: ccd90d4e68571e545864c9365c395ab9
+      internalID: 188136942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AncientSkeletonDownIdle_2
+      name: AncientSkeletonLeftAttack02_2
       rect:
         serializedVersion: 2
-        x: 180
-        y: 17
-        width: 35
-        height: 54
+        x: 176
+        y: 0
+        width: 62
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 355f1eda9ec99b7468f5e6749d7e865f
-      internalID: 1198097305
+      spriteID: b5308882a5c24964eafa26b0de8e9d94
+      internalID: -1992146034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AncientSkeletonDownIdle_3
+      name: AncientSkeletonLeftAttack02_3
       rect:
         serializedVersion: 2
-        x: 259
-        y: 17
-        width: 36
-        height: 54
+        x: 243
+        y: 1
+        width: 71
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,188 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3576ddac73f2b204e83f971d0570040c
-      internalID: -1276609050
+      spriteID: 98da7536f59dd8e43a504d4b7a6eb367
+      internalID: 2038947498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AncientSkeletonDownIdle_4
+      name: AncientSkeletonLeftAttack02_4
       rect:
         serializedVersion: 2
-        x: 339
+        x: 336
+        y: 17
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9b53fe88dc65643b703cafb5a52aba
+      internalID: -798342073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AncientSkeletonLeftAttack02_5
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 17
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca8d62b6f33bb945abc851b1a6c8ac1
+      internalID: -38011039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AncientSkeletonLeftAttack02_6
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 0
+        width: 71
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc35c8de2c645e64db2b6dc5288575a9
+      internalID: 118259069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AncientSkeletonLeftAttack02_7
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f37611ebf2ea44dbb070e99a710058
+      internalID: -1845224585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AncientSkeletonLeftAttack02_8
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 0
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24621427683343a49b2cd540b7daed1f
+      internalID: -693617558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AncientSkeletonLeftAttack02_9
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1
+        width: 71
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dced87384a267746a906a0008887178
+      internalID: -331603234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AncientSkeletonLeftAttack02_10
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 17
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6bb67ebee18ed4e8e7593c24a49c62
+      internalID: -2114838550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AncientSkeletonLeftAttack02_11
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 17
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171abe9e34fa74142ac2c832456f3df9
+      internalID: -623797344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AncientSkeletonLeftAttack02_12
+      rect:
+        serializedVersion: 2
+        x: 976
         y: 16
-        width: 36
-        height: 54
+        width: 61
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,50 +389,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 768fe12b732047e4db72187b9bba128f
-      internalID: -1747687148
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AncientSkeletonDownIdle_5
-      rect:
-        serializedVersion: 2
-        x: 420
-        y: 16
-        width: 35
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 863343197a9587747b3ea63984c04a9f
-      internalID: 517646156
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AncientSkeletonDownIdle_6
-      rect:
-        serializedVersion: 2
-        x: 500
-        y: 17
-        width: 35
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 61498dbd253be9e4890f72e96f73bbf5
-      internalID: 937152642
+      spriteID: 28abebc912b15894e9541361bfbc083a
+      internalID: -1738112618
       vertices: []
       indices: 
       edges: []
@@ -280,13 +406,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      AncientSkeletonDownIdle_0: -1066993722
-      AncientSkeletonDownIdle_1: 1881461435
-      AncientSkeletonDownIdle_2: 1198097305
-      AncientSkeletonDownIdle_3: -1276609050
-      AncientSkeletonDownIdle_4: -1747687148
-      AncientSkeletonDownIdle_5: 517646156
-      AncientSkeletonDownIdle_6: 937152642
+      AncientSkeletonLeftAttack02_0: -1202925115
+      AncientSkeletonLeftAttack02_1: 188136942
+      AncientSkeletonLeftAttack02_10: -2114838550
+      AncientSkeletonLeftAttack02_11: -623797344
+      AncientSkeletonLeftAttack02_12: -1738112618
+      AncientSkeletonLeftAttack02_2: -1992146034
+      AncientSkeletonLeftAttack02_3: 2038947498
+      AncientSkeletonLeftAttack02_4: -798342073
+      AncientSkeletonLeftAttack02_5: -38011039
+      AncientSkeletonLeftAttack02_6: 118259069
+      AncientSkeletonLeftAttack02_7: -1845224585
+      AncientSkeletonLeftAttack02_8: -693617558
+      AncientSkeletonLeftAttack02_9: -331603234
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

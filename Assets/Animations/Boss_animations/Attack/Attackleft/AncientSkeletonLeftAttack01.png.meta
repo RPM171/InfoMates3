@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: de9d684aa047c854db237b7a30c0741c
+guid: ed5e0fef62be15c48aa6069063abe84d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AncientSkeletonDownIdle_0
+      name: AncientSkeletonLeftAttack01_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 17
-        width: 35
-        height: 55
+        x: 1
+        y: 15
+        width: 55
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f60e3c6b611717e4b9c5b71d46562eed
-      internalID: -1066993722
+      spriteID: cb8e7d66ac4c00c4e92238b10e81f339
+      internalID: 1383020848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AncientSkeletonDownIdle_1
+      name: AncientSkeletonLeftAttack01_1
       rect:
         serializedVersion: 2
-        x: 100
-        y: 17
-        width: 35
-        height: 55
+        x: 86
+        y: 16
+        width: 50
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,41 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d7d948f23c28fa46b3377ccc2c7d2d2
-      internalID: 1881461435
+      spriteID: e079646c7054c5d4fb44f608f2675da1
+      internalID: -1655234059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AncientSkeletonDownIdle_2
+      name: AncientSkeletonLeftAttack01_2
       rect:
         serializedVersion: 2
         x: 180
         y: 17
-        width: 35
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 355f1eda9ec99b7468f5e6749d7e865f
-      internalID: 1198097305
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AncientSkeletonDownIdle_3
-      rect:
-        serializedVersion: 2
-        x: 259
-        y: 17
         width: 36
-        height: 54
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3576ddac73f2b204e83f971d0570040c
-      internalID: -1276609050
+      spriteID: 93d4fcc1e0e7a6648b764d09b09f53c0
+      internalID: 1901150432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AncientSkeletonDownIdle_4
+      name: AncientSkeletonLeftAttack01_3
       rect:
         serializedVersion: 2
-        x: 339
-        y: 16
+        x: 260
+        y: 18
         width: 36
-        height: 54
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 768fe12b732047e4db72187b9bba128f
-      internalID: -1747687148
+      spriteID: f3788672f0d5ffd4b95238ef1e318281
+      internalID: -566409398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AncientSkeletonDownIdle_5
+      name: AncientSkeletonLeftAttack01_4
       rect:
         serializedVersion: 2
-        x: 420
-        y: 16
-        width: 35
-        height: 54
+        x: 340
+        y: 19
+        width: 36
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 863343197a9587747b3ea63984c04a9f
-      internalID: 517646156
+      spriteID: 1e288d1e502b85243bac59d02143a8f3
+      internalID: 1102720941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AncientSkeletonDownIdle_6
+      name: AncientSkeletonLeftAttack01_5
       rect:
         serializedVersion: 2
-        x: 500
-        y: 17
-        width: 35
-        height: 54
+        x: 400
+        y: 0
+        width: 56
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,8 +242,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61498dbd253be9e4890f72e96f73bbf5
-      internalID: 937152642
+      spriteID: 5b2956aafb8e8a141809303f3498fd0b
+      internalID: -692971256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AncientSkeletonLeftAttack01_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ed333cb83f14d4fb0d35f3838512b0
+      internalID: -735055147
       vertices: []
       indices: 
       edges: []
@@ -280,13 +280,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      AncientSkeletonDownIdle_0: -1066993722
-      AncientSkeletonDownIdle_1: 1881461435
-      AncientSkeletonDownIdle_2: 1198097305
-      AncientSkeletonDownIdle_3: -1276609050
-      AncientSkeletonDownIdle_4: -1747687148
-      AncientSkeletonDownIdle_5: 517646156
-      AncientSkeletonDownIdle_6: 937152642
+      AncientSkeletonLeftAttack01_0: 1383020848
+      AncientSkeletonLeftAttack01_1: -1655234059
+      AncientSkeletonLeftAttack01_2: 1901150432
+      AncientSkeletonLeftAttack01_3: -566409398
+      AncientSkeletonLeftAttack01_4: 1102720941
+      AncientSkeletonLeftAttack01_5: -692971256
+      AncientSkeletonLeftAttack01_6: -735055147
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

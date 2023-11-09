@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: de9d684aa047c854db237b7a30c0741c
+guid: cf8017175787e1441938412a68b4f88f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AncientSkeletonDownIdle_0
+      name: AncientSkeletonRightWalk_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 17
-        width: 35
-        height: 55
+        x: 32
+        y: 23
+        width: 55
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f60e3c6b611717e4b9c5b71d46562eed
-      internalID: -1066993722
+      spriteID: ef9d40374318cf140addfdfd27925b3e
+      internalID: 360008176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AncientSkeletonDownIdle_1
+      name: AncientSkeletonRightWalk_1
       rect:
         serializedVersion: 2
-        x: 100
-        y: 17
-        width: 35
-        height: 55
+        x: 127
+        y: 22
+        width: 58
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d7d948f23c28fa46b3377ccc2c7d2d2
-      internalID: 1881461435
+      spriteID: 61604756105ce144d8eea429536841a6
+      internalID: -185745869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AncientSkeletonDownIdle_2
+      name: AncientSkeletonRightWalk_2
       rect:
         serializedVersion: 2
-        x: 180
-        y: 17
-        width: 35
-        height: 54
+        x: 222
+        y: 21
+        width: 61
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 355f1eda9ec99b7468f5e6749d7e865f
-      internalID: 1198097305
+      spriteID: 44ae8efafcf8a6b4e8c45a16bd2e80e6
+      internalID: 1367955174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AncientSkeletonDownIdle_3
+      name: AncientSkeletonRightWalk_3
       rect:
         serializedVersion: 2
-        x: 259
-        y: 17
-        width: 36
-        height: 54
+        x: 318
+        y: 20
+        width: 61
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3576ddac73f2b204e83f971d0570040c
-      internalID: -1276609050
+      spriteID: 0de718efa5b84a64da2a7464d52ac76f
+      internalID: 128290558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AncientSkeletonDownIdle_4
+      name: AncientSkeletonRightWalk_4
       rect:
         serializedVersion: 2
-        x: 339
-        y: 16
-        width: 36
-        height: 54
+        x: 416
+        y: 23
+        width: 55
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 768fe12b732047e4db72187b9bba128f
-      internalID: -1747687148
+      spriteID: f79e392776d164d40a9ad41357fbda49
+      internalID: 163158177
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AncientSkeletonDownIdle_5
+      name: AncientSkeletonRightWalk_5
       rect:
         serializedVersion: 2
-        x: 420
-        y: 16
-        width: 35
-        height: 54
+        x: 513
+        y: 22
+        width: 57
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 863343197a9587747b3ea63984c04a9f
-      internalID: 517646156
+      spriteID: 989e8270a70e69f42a9636b136feb811
+      internalID: 469947022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AncientSkeletonDownIdle_6
+      name: AncientSkeletonRightWalk_6
       rect:
         serializedVersion: 2
-        x: 500
-        y: 17
-        width: 35
-        height: 54
+        x: 609
+        y: 21
+        width: 56
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,8 +263,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61498dbd253be9e4890f72e96f73bbf5
-      internalID: 937152642
+      spriteID: 9cd38181267b67149b44bbd958416b51
+      internalID: -2095172305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AncientSkeletonRightWalk_7
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 20
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2622c63cc00e2f34e9f0c274f2fce50a
+      internalID: 1258652495
       vertices: []
       indices: 
       edges: []
@@ -280,13 +301,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      AncientSkeletonDownIdle_0: -1066993722
-      AncientSkeletonDownIdle_1: 1881461435
-      AncientSkeletonDownIdle_2: 1198097305
-      AncientSkeletonDownIdle_3: -1276609050
-      AncientSkeletonDownIdle_4: -1747687148
-      AncientSkeletonDownIdle_5: 517646156
-      AncientSkeletonDownIdle_6: 937152642
+      AncientSkeletonRightWalk_0: 360008176
+      AncientSkeletonRightWalk_1: -185745869
+      AncientSkeletonRightWalk_2: 1367955174
+      AncientSkeletonRightWalk_3: 128290558
+      AncientSkeletonRightWalk_4: 163158177
+      AncientSkeletonRightWalk_5: 469947022
+      AncientSkeletonRightWalk_6: -2095172305
+      AncientSkeletonRightWalk_7: 1258652495
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
