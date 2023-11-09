@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SkeletonWithSwordLefttDeath_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 7
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5681151b6205b441a2eb5e7dda1a48d
+      internalID: -1985055624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWithSwordLefttDeath_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 10
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992864f4907639b45bf031c074ebab84
+      internalID: -334689646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWithSwordLefttDeath_2
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 11
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f98e978fab8ae4c835d78dcb424202
+      internalID: 1890019408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWithSwordLefttDeath_5
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 6
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc168e7f7afdff94ebee6da9babff966
+      internalID: -1514433579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWithSwordLefttDeath_8
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 4
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f131e4b9e54cdc4890296af384232a4
+      internalID: -128345218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWithSwordLefttDeath_9
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 4
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1268621164c2847bd403f71d5f03d2
+      internalID: 1809386849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWithSwordLefttDeath_10
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 4
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed452daf1d5741948a0309693cefcb5b
+      internalID: 1725427940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWithSwordLefttDeath_11
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 4
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78efe4129028b542b059baa03230b01
+      internalID: 429614426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +300,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SkeletonWithSwordLefttDeath_0: -1985055624
+      SkeletonWithSwordLefttDeath_1: -334689646
+      SkeletonWithSwordLefttDeath_10: 1725427940
+      SkeletonWithSwordLefttDeath_11: 429614426
+      SkeletonWithSwordLefttDeath_2: 1890019408
+      SkeletonWithSwordLefttDeath_3: -1128313457
+      SkeletonWithSwordLefttDeath_4: -1996643744
+      SkeletonWithSwordLefttDeath_5: -1514433579
+      SkeletonWithSwordLefttDeath_6: 787380397
+      SkeletonWithSwordLefttDeath_7: -1244046061
+      SkeletonWithSwordLefttDeath_8: -128345218
+      SkeletonWithSwordLefttDeath_9: 1809386849
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
