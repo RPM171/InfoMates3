@@ -8,19 +8,21 @@ public class Player_attack : MonoBehaviour
     public Follow_Player enemy;
     private int damage;
     public AnimacionKevin animacion;
+    private Animation anim;
 
     void Start()
     {
          animacion = GetComponent<AnimacionKevin>();
+            anim = GetComponent<Animation>();
     }
 
     // Update is called once per frame
     void Update()
     {
     }
-    public void Attack(bool attack)
+    public void Attack()
     {
-        animacion.Atacar(attack);
+        anim.Play("AttackLeft");
     }
     void OnCollisionEnter2D(Collision2D collision)
     {

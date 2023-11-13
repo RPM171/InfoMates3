@@ -2,6 +2,7 @@ using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+using UnityEditor.SceneTemplate;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Tilemaps;
@@ -13,11 +14,11 @@ public class Charactermovement : MonoBehaviour
     private Rigidbody2D rb;
     public GameObject personaje;
     bool isPaused = false;
-    private Animator animator;
     public AnimacionKevin animacion;
-    bool idle = false;
-    bool boolAttack = false;
     public Player_attack attack;
+    public Animation AttackLeft;
+    public Animation AttackRight;
+   
     
     
     
@@ -29,11 +30,14 @@ public class Charactermovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         targetPosition = transform.position;
-        animacion = GetComponent<AnimacionKevin>();
-        animator = GetComponent<Animator>();    
+        animacion = GetComponent<AnimacionKevin>();   
         attack = GetComponent<Player_attack>();
-       
-        
+        AttackLeft = GetComponent<Animation>();
+        AttackRight = GetComponent<Animation>();
+
+
+
+
     }
 
     // Update is called once per frame
@@ -41,7 +45,9 @@ public class Charactermovement : MonoBehaviour
 
 {
         Vector2 moveDirection = (targetPosition - rb.position).normalized;
-
+        animacion.WalkRigth(false);
+        animacion.WalkLeft(false);
+        animacion.Idle(true);
         if (Input.GetMouseButtonDown(1)) 
 
     {       
@@ -50,39 +56,34 @@ public class Charactermovement : MonoBehaviour
     }
         if (moveDirection.magnitude > 0.1f)
         {
+            
             if (moveDirection.x > 0.1f)
             {
-                idle = false;
-                animacion.WalkRigth(moveDirection.x);
-                if (Input.GetKeyDown(KeyCode.Escape))
+                animacion.Idle(false);
+                animacion.WalkRigth(false);
+                animacion.WalkLeft(true);
+                if (Input.GetKeyDown(KeyCode.Space))
                 {
-
-                    boolAttack = true;
-                    attack.Attack(boolAttack);
+                    AttackLeft.Play();
                 }
-                boolAttack = false;
             }
             else if (moveDirection.x < -0.1f)
             {
-                idle = false;
-                animacion.WalkLeft(moveDirection.x);
-            if (Input.GetKeyDown(KeyCode.Escape))
-            {
-                boolAttack = true;
-                attack.Attack(boolAttack);
+                animacion.Idle(false);
+                animacion.WalkLeft(false);
+                animacion.WalkRigth(true);
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    AttackRight.Play();
+                }
             }
-            boolAttack = false;
-        }
 
-    }
-            else
-            {
-                idle = true;
-                animacion.IdlePlayer(idle);
-                
-            }
             
-    }
+        }  
+
+      
+    
+}
 
 
     void FixedUpdate()
