@@ -182,7 +182,6 @@ GameObject:
   - component: {fileID: 149616045}
   - component: {fileID: 149616047}
   - component: {fileID: 149616049}
-  - component: {fileID: 149616048}
   - component: {fileID: 149616050}
   m_Layer: 6
   m_Name: Player
@@ -207,8 +206,6 @@ MonoBehaviour:
   personaje: {fileID: 149616041}
   animacion: {fileID: 149616050}
   attack: {fileID: 149616049}
-  AttackLeft: {fileID: 149616048}
-  AttackRight: {fileID: 149616048}
 --- !u!212 &149616043
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -369,23 +366,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!111 &149616048
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 149616041}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: ff79b7f84871c034b86c142d3d9640b8, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: ff79b7f84871c034b86c142d3d9640b8, type: 2}
-  - {fileID: 7400000, guid: dffb08254ca266c4cb32d286b3529fb4, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &149616049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2035,9 +2015,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 149616041}
-  speed: 2
   EmpezarJuego: 0
   health: {fileID: 2005474926}
+  player: {fileID: 0}
 --- !u!58 &394072202
 CircleCollider2D:
   m_ObjectHideFlags: 0

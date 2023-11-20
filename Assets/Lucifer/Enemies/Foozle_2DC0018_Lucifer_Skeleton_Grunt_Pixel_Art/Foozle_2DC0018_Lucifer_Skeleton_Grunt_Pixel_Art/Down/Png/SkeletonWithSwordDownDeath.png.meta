@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SkeletonWithSwordDownDeath_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 7
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e590565dd5599a44b31fa32b4687132
+      internalID: -1939116758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWithSwordDownDeath_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 10
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1612c765fc55234d81e65e539c99d5d
+      internalID: -52909106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWithSwordDownDeath_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 9
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46bf7caff9ad7646bc5746dfdeac790
+      internalID: -2016993992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWithSwordDownDeath_6
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 3
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1127614339c2874fa25b9a716e6dc86
+      internalID: 1424999638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWithSwordDownDeath_8
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 5
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1d554dda0eac84fb00ecbd26723794
+      internalID: -1205454392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWithSwordDownDeath_9
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 5
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a67b8cc9f2780940b66aa85162cd66c
+      internalID: -347894192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWithSwordDownDeath_10
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 5
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446defd1bb5e0554a8406a9c2708b19e
+      internalID: 1372473095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkeletonWithSwordDownDeath_11
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 5
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d2e4b66922a634180a61d4525f5fc8
+      internalID: 991563106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +300,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SkeletonWithSwordDownDeath_0: -1939116758
+      SkeletonWithSwordDownDeath_1: -52909106
+      SkeletonWithSwordDownDeath_10: 1372473095
+      SkeletonWithSwordDownDeath_11: 991563106
+      SkeletonWithSwordDownDeath_2: -2016993992
+      SkeletonWithSwordDownDeath_3: -805323435
+      SkeletonWithSwordDownDeath_4: -23340409
+      SkeletonWithSwordDownDeath_5: -982876035
+      SkeletonWithSwordDownDeath_6: 1424999638
+      SkeletonWithSwordDownDeath_7: -1003317912
+      SkeletonWithSwordDownDeath_8: -1205454392
+      SkeletonWithSwordDownDeath_9: -347894192
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
