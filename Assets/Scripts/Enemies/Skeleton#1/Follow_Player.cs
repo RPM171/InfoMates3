@@ -6,21 +6,27 @@ using UnityEngine;
 public class Follow_Player : MonoBehaviour
 {
     public GameObject Player;
-    public float speed;
+    private float speed;
     public Boolean EmpezarJuego = false;
-    private float distance;
     private Rigidbody2D rb;
     private Boolean detectado = false;
     private int damage;
     public HealthManager health;
     private int healthEnemy;
+    private Animator animator;
+    public Transform player;
+    private SpriteRenderer spriteRenderer;
+    private float distance;
     
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        damage = 20;
+        damage = 5;
+        speed = 2;
         healthEnemy = 100;
+        animator = GetComponent<Animator>();
+        spriteRenderer= GetComponentInChildren<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -30,6 +36,11 @@ public class Follow_Player : MonoBehaviour
         {
             movimientoEnemigo();
             muerteEnemigo();
+            distancePlayer(distance);
+            if (detectado == true) 
+            {
+                animator.SetTrigger("attack");
+            }
         }
 
     }
@@ -42,15 +53,25 @@ public class Follow_Player : MonoBehaviour
 
             // Aplica la velocidad al Rigidbody2D
             rb.velocity = velocity;
+            Orientation(direction.x);
 
-            distance = Vector2.Distance(Player.transform.position, transform.position);
+
+        if (Player.transform.position.x > transform.position.x)
+        {
+            animator.SetBool("WalkLeft", false);
+        }
+        else
+        {
+            animator.SetBool("WalkLeft", true);
+        }
+            
         
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject == Player)
         {
-            // Aquí es donde pones el código para dañar al jugador.
+            //El código para dañar al jugador.
             health.takeDamage(damage);
         }
     }
@@ -58,12 +79,45 @@ public class Follow_Player : MonoBehaviour
     {
         if (healthEnemy == 0)
         {
-            Destroy(gameObject);
+            animator.SetTrigger("dead");
+            DestroyAfterAnimationCoroutine();
         }
     }
     public void setHealthEnemy(int playerDamage)
     {
         healthEnemy -= playerDamage;
+    }
+    public void distancePlayer(float dist)
+    {
+        dist = Vector2.Distance(transform.position, player.position);
+
+        if (distance < 0.1)
+        {
+            detectado = true;
+        }else if (distance > 0.1)
+        {
+            detectado = false;
+        }
+    }
+
+    void Orientation (float moveX)
+    {
+        if (moveX<0)
+        {
+            spriteRenderer.flipX = true;
+        }
+        else if (moveX > 0)
+        {
+            spriteRenderer.flipX = false;
+        }
+    }
+    IEnumerator DestroyAfterAnimationCoroutine()
+    {
+        // Esperar hasta que la animación haya terminado
+        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+
+        // Una vez que la animación ha terminado, destruir el objeto
+        Destroy(gameObject);
     }
 
 }

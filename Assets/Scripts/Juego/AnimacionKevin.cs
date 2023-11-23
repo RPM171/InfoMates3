@@ -12,22 +12,13 @@ public class AnimacionKevin : MonoBehaviour
     }
 
     // Update is called once per frame
-    public void WalkRigth(float movimentX)
-    {
-        animacion.SetFloat("walk", movimentX);
-    }
+   public void Walk (float moveX) {
 
-    public void WalkLeft(float movimentX) 
-    {
-        animacion.SetFloat("walk",movimentX);
+        animacion.SetFloat("walk",Mathf.Abs(moveX));
     }
-    public void Atacar(bool attack)
+    public void attack ()
     {
-        animacion.SetBool("attack",attack);
-    }
-    public void IdlePlayer(bool idle)
-    {
-        animacion.SetBool("idle",idle);
+        animacion.SetTrigger("attack");
     }
 
 }

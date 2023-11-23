@@ -8,6 +8,7 @@ public class Scenes : MonoBehaviour
     public void EscenaJugar()
     {
         SceneManager.LoadScene("lvl1");
+        Time.timeScale = 1;
     }
     public void VolverAlMenu()
     {
