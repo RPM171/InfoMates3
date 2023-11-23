@@ -206,6 +206,7 @@ MonoBehaviour:
   personaje: {fileID: 149616041}
   animacion: {fileID: 149616050}
   attack: {fileID: 149616049}
+  enemy: {fileID: 394072196}
 --- !u!212 &149616043
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -379,7 +380,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 394072196}
-  animacion: {fileID: 149616050}
+  damage: 0
 --- !u!114 &149616050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2017,7 +2018,7 @@ MonoBehaviour:
   Player: {fileID: 149616041}
   EmpezarJuego: 0
   health: {fileID: 2005474926}
-  player: {fileID: 0}
+  player: {fileID: 149616044}
 --- !u!58 &394072202
 CircleCollider2D:
   m_ObjectHideFlags: 0

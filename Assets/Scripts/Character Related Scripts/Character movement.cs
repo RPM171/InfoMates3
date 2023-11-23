@@ -20,8 +20,8 @@ public class Charactermovement : MonoBehaviour
     public Player_attack attack;
     private SpriteRenderer spriteRenderer;
     public Follow_Player enemy;
-    private CapsuleCollider2D RigthAttack;
-    private CircleCollider2D LeftAttack;
+    private int damage = 20;
+
 
 
 
@@ -33,16 +33,14 @@ public class Charactermovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        damage = 20;
         rb = GetComponent<Rigidbody2D>();
         targetPosition = transform.position;
         animacion = GetComponent<AnimacionKevin>();   
         attack = GetComponent<Player_attack>();
         spriteRenderer= GetComponentInChildren<SpriteRenderer>();
         enemy = GetComponent<Follow_Player>();
-        RigthAttack = GetComponent<CapsuleCollider2D>();
-        LeftAttack = GetComponent<CircleCollider2D>();
-        RigthAttack.enabled = false;
-        LeftAttack.enabled = false;
+
 
 
     }
@@ -68,7 +66,7 @@ public class Charactermovement : MonoBehaviour
 
       if (Input.GetKeyDown(KeyCode.Space))
         {   
-            ActivarEspadaCollider(targetPosition.x - rb.position.x);
+            
             animacion.attack(); 
         }
         
@@ -113,43 +111,34 @@ public class Charactermovement : MonoBehaviour
         {
             // Evitar que el jugador atraviese la pared
             rb.velocity = Vector2.zero;
+            rb.angularVelocity = 0;
         }
+        
+
     }
     public void teleportPlayer(GameObject player)
     {
         Vector3 teleport = new Vector3(-18f, -1.22f,0f);
         player.transform.position=teleport;
 
-
-    }
-    public void ActivarEspadaCollider(float moveX)
-    {
-        if (moveX > 0)
-        {
-            RigthAttack.enabled = true;
-        }
-        else if (moveX < 0)
-        {
-            LeftAttack.enabled = true;
-        }
     }
 
-    // Método para desactivar el collider de la espada
-    public void DesactivarEspadaCollider()
-    {
-        RigthAttack.enabled = false;
-        LeftAttack.enabled = false; 
-    }
 
     // Método para detectar colisiones
-    void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if ((RigthAttack.enabled||LeftAttack.enabled) && other.CompareTag("Enemy"))
+        if (other.CompareTag("Enemy")) // Verifica si colisiona con el jugador
         {
+            // Aquí puedes ejecutar la lógica para causar daño al jugador
             enemy.setHealthEnemy(attack.damage);
         }
     }
 
+    public int GetDamage()
+    {
+        return damage;
+    
+    }
 
 }
 

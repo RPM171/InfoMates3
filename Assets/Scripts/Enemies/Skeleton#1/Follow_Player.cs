@@ -24,9 +24,10 @@ public class Follow_Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         damage = 5;
         speed = 2;
-        healthEnemy = 100;
+        healthEnemy = 40;
         animator = GetComponent<Animator>();
         spriteRenderer= GetComponentInChildren<SpriteRenderer>();
+        
     }
 
     // Update is called once per frame
@@ -73,6 +74,7 @@ public class Follow_Player : MonoBehaviour
         {
             //El código para dañar al jugador.
             health.takeDamage(damage);
+            setHealthEnemy(GetComponent<Charactermovement>().GetDamage());
         }
     }
     public void muerteEnemigo()
@@ -80,7 +82,7 @@ public class Follow_Player : MonoBehaviour
         if (healthEnemy == 0)
         {
             animator.SetTrigger("dead");
-            DestroyAfterAnimationCoroutine();
+            Destroy(gameObject);
         }
     }
     public void setHealthEnemy(int playerDamage)
@@ -104,20 +106,20 @@ public class Follow_Player : MonoBehaviour
     {
         if (moveX<0)
         {
-            spriteRenderer.flipX = true;
+            spriteRenderer.flipX = false;
         }
         else if (moveX > 0)
         {
-            spriteRenderer.flipX = false;
+            spriteRenderer.flipX = true;
         }
     }
-    IEnumerator DestroyAfterAnimationCoroutine()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        // Esperar hasta que la animación haya terminado
-        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
-
-        // Una vez que la animación ha terminado, destruir el objeto
-        Destroy(gameObject);
+        if (other.CompareTag("Player")) // Verifica si colisiona con el jugador
+        {
+            // Aquí puedes ejecutar la lógica para causar daño al jugador
+            setHealthEnemy(GetComponent<Charactermovement>().GetDamage());
+        }
     }
 
 }
