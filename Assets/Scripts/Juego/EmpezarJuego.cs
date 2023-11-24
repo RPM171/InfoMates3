@@ -6,12 +6,14 @@ using UnityEngine;
 
 public class EmpezarJuego : MonoBehaviour
 {
+    
     public GameObject Pergamino;
     public GameObject Victoria;
     public Charactermovement charactermovement;
     public GameObject player;
     private Boolean leeido = false;
     public Follow_Player Follow_Player;
+
     
     // Start is called before the first frame update
     void Start()

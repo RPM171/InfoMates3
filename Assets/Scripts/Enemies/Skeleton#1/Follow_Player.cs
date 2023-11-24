@@ -68,15 +68,7 @@ public class Follow_Player : MonoBehaviour
             
         
     }
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject == Player)
-        {
-            //El código para dañar al jugador.
-            health.takeDamage(damage);
-            setHealthEnemy(GetComponent<Charactermovement>().GetDamage());
-        }
-    }
+    
     public void muerteEnemigo()
     {
         if (healthEnemy == 0)
@@ -87,7 +79,7 @@ public class Follow_Player : MonoBehaviour
     }
     public void setHealthEnemy(int playerDamage)
     {
-        healthEnemy -= playerDamage;
+        healthEnemy = healthEnemy-playerDamage;
     }
     public void distancePlayer(float dist)
     {
@@ -113,13 +105,13 @@ public class Follow_Player : MonoBehaviour
             spriteRenderer.flipX = true;
         }
     }
-    private void OnTriggerEnter2D(Collider2D other)
+   private void OnTriggerEnter2D(Collider2D other)
+{
+    if (other.CompareTag("Player")) // Verifica si colisiona con el jugador
     {
-        if (other.CompareTag("Player")) // Verifica si colisiona con el jugador
-        {
-            // Aquí puedes ejecutar la lógica para causar daño al jugador
-            setHealthEnemy(GetComponent<Charactermovement>().GetDamage());
-        }
+        // Aquí puedes ejecutar la lógica para causar daño al jugador
+        other.GetComponent<HealthManager>().takeDamage(damage);
+    }
     }
 
 }
