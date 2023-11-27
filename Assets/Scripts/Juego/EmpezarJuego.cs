@@ -32,7 +32,7 @@ public class EmpezarJuego : MonoBehaviour
             Destroy(Pergamino);
             charactermovement.PauseMovement();
             leeido = true;
-            Follow_Player.EmpezarJuego = true;
+            
             
         }
         if (leeido==true)

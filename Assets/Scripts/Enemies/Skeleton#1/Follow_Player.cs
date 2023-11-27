@@ -2,13 +2,11 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Follow_Player : MonoBehaviour
 {
     public GameObject Player;
-    [SerializeField] private float speed;
-    public Boolean EmpezarJuego = false;
-    private Rigidbody2D rb;
     private Boolean detectado = false;
     [SerializeField] private int damage;
     public HealthManager health;
@@ -17,21 +15,23 @@ public class Follow_Player : MonoBehaviour
     public Transform player;
     private SpriteRenderer spriteRenderer;
     private float distance;
-    
+    private NavMeshAgent agent;
+
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer= GetComponentInChildren<SpriteRenderer>();
+        agent = GetComponent<NavMeshAgent>();
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
+
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (EmpezarJuego == true)
-        {
             movimientoEnemigo();
             AnimacionMuerte();
             distancePlayer(distance);
@@ -39,19 +39,13 @@ public class Follow_Player : MonoBehaviour
             {
                 animator.SetTrigger("attack");
             }
-        }
+        
 
     }
     public void movimientoEnemigo()
     {
-            Vector2 direction = (Player.transform.position - transform.position).normalized;
-
-            // Calcula la velocidad basada en la dirección y la velocidad deseada
-            Vector2 velocity = direction * speed;
-
-            // Aplica la velocidad al Rigidbody2D
-            rb.velocity = velocity;
-            Orientation(direction.x);
+            agent.SetDestination(player.position);
+            Orientation(player.position.x-transform.position.x);
 
 
         if (Player.transform.position.x > transform.position.x)
@@ -73,7 +67,7 @@ public class Follow_Player : MonoBehaviour
             if (healthEnemy <= 0)
             {
                 animator.SetTrigger("dead");
-                speed = 0;
+                agent.speed = 0;
 
             }
         }
@@ -110,17 +104,10 @@ public class Follow_Player : MonoBehaviour
             spriteRenderer.flipX = true;
         }
     }
-   private void OnTriggerEnter2D(Collider2D other)
-{
-    if (other.CompareTag("Player")) // Verifica si colisiona con el jugador
-    {
-        // Aquí puedes ejecutar la lógica para causar daño al jugador
-        other.GetComponent<HealthManager>().takeDamage(damage);
-    }
-    }
+
     private void OnDrawGizmosSelected()
     {
-        Gizmos.color = Color.yellow;
+        Gizmos.color = Color.red;
         Gizmos.DrawLine(transform.position, transform.position+transform.right*distance);
     }
 

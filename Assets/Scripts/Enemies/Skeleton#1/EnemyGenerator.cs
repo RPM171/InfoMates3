@@ -6,12 +6,13 @@ public class EnemyGenerator : MonoBehaviour
 {
     [SerializeField] GameObject enemigoPrefab;
     public float tiempoEntreEnemigos;
-    public int totalEnemigos = 5; // Número total de enemigos a generar
+    public int totalEnemigos; // Número total de enemigos a generar
 
     private int enemigosGenerados = 0;
-
+    private float tiempoUltimaGeneracion;
     void Start()
     {
+        tiempoUltimaGeneracion = Time.time;
         InvokeRepeating("GenerarEnemigo", 5f,5f);
     }
 
@@ -22,11 +23,14 @@ public class EnemyGenerator : MonoBehaviour
     }
     void GenerarEnemigo()
     {
-        if (enemigosGenerados < totalEnemigos)
+        if (enemigosGenerados < totalEnemigos && Time.time - tiempoUltimaGeneracion > tiempoEntreEnemigos)
         {
-            Vector2 posicion = new Vector2(9.81f, 6.74f);
+            Vector2 posicion = new Vector2(-4.72f, -0.68f);
             Instantiate(enemigoPrefab, posicion, Quaternion.identity);
             enemigosGenerados++;
+            tiempoUltimaGeneracion = Time.time;
+            enemigoPrefab.SetActive(true);
+            
         }
         else
         {
