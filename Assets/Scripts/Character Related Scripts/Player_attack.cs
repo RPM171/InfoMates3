@@ -7,6 +7,11 @@ public class Player_attack : MonoBehaviour
     
     public Follow_Player enemy;
     public int damage;
+    public Transform attackCheck;
+    public float radiusAttack;
+    public LayerMask layerEnemy;
+    float timeNextAttack;
+    public float radius;
 
     void Start()
     {
@@ -18,4 +23,6 @@ public class Player_attack : MonoBehaviour
     {
     }
 
+ 
+    
 }
