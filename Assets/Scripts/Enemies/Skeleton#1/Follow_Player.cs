@@ -6,13 +6,13 @@ using UnityEngine;
 public class Follow_Player : MonoBehaviour
 {
     public GameObject Player;
-    private float speed;
+    [SerializeField] private float speed;
     public Boolean EmpezarJuego = false;
     private Rigidbody2D rb;
     private Boolean detectado = false;
-    private int damage;
+    [SerializeField] private int damage;
     public HealthManager health;
-    private int healthEnemy;
+    [SerializeField] private int healthEnemy;
     private Animator animator;
     public Transform player;
     private SpriteRenderer spriteRenderer;
@@ -22,9 +22,6 @@ public class Follow_Player : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        damage = 5;
-        speed = 2;
-        healthEnemy = 40;
         animator = GetComponent<Animator>();
         spriteRenderer= GetComponentInChildren<SpriteRenderer>();
         
@@ -36,7 +33,7 @@ public class Follow_Player : MonoBehaviour
         if (EmpezarJuego == true)
         {
             movimientoEnemigo();
-            muerteEnemigo();
+            AnimacionMuerte();
             distancePlayer(distance);
             if (detectado == true) 
             {
@@ -69,13 +66,21 @@ public class Follow_Player : MonoBehaviour
         
     }
     
-    public void muerteEnemigo()
+    public void AnimacionMuerte()
     {
-        if (healthEnemy == 0)
+        if (healthEnemy <= 0)
         {
-            animator.SetTrigger("dead");
-            Destroy(gameObject);
+            if (healthEnemy <= 0)
+            {
+                animator.SetTrigger("dead");
+                speed = 0;
+
+            }
         }
+    }
+    public void Muerte()
+    {
+        Destroy(gameObject);
     }
     public void setHealthEnemy(int playerDamage)
     {
@@ -112,6 +117,11 @@ public class Follow_Player : MonoBehaviour
         // Aquí puedes ejecutar la lógica para causar daño al jugador
         other.GetComponent<HealthManager>().takeDamage(damage);
     }
+    }
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawLine(transform.position, transform.position+transform.right*distance);
     }
 
 }

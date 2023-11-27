@@ -19,18 +19,9 @@ public class Charactermovement : MonoBehaviour
     public GameObject personaje;
     bool isPaused = false;
     public AnimacionKevin animacion;
-    public Player_attack attack;
     private SpriteRenderer spriteRenderer;
     public Follow_Player enemy;
 
-    [Header("Arm")]
-   
-    private int damage;
-    public Transform attackCheck;
-    public float radiusAttack;
-    public LayerMask layerEnemy;
-    float timeNextAttack;
-    public float radius;
 
 
 
@@ -44,11 +35,9 @@ public class Charactermovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        damage = 20;
         rb = GetComponent<Rigidbody2D>();
         targetPosition = transform.position;
         animacion = GetComponent<AnimacionKevin>();   
-        attack = GetComponent<Player_attack>();
         spriteRenderer= GetComponentInChildren<SpriteRenderer>();
         enemy = GetComponent<Follow_Player>();
 
@@ -73,14 +62,8 @@ public class Charactermovement : MonoBehaviour
         {
             animacion.Walk(targetPosition.x - rb.position.x);
             OrientationSprite(targetPosition.x - rb.position.x);
-            Flip(spriteRenderer.flipX);
         }  
 
-      if (Input.GetKeyDown(KeyCode.Space))
-        {   
-            animacion.attack();
-            PlayerAttack();
-        }
         
 }
 
@@ -138,50 +121,6 @@ public class Charactermovement : MonoBehaviour
 
     }
 
-
-    // Método para detectar colisiones
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Enemy")) // Verifica si colisiona con el jugador
-        {
-            // Aquí puedes ejecutar la lógica para causar daño al jugador
-            enemy.setHealthEnemy(attack.damage);
-        }
-    }
-
-    public int GetDamage()
-    {
-        return damage;
-    
-    }
-    void Flip(bool flipPlayer)
-    {
-        if (flipPlayer==true)
-        {
-            attackCheck.localPosition = new Vector2(+attackCheck.localPosition.x, attackCheck.localPosition.y);
-        }
-        else if (flipPlayer == false)
-        {
-            attackCheck.localPosition = new Vector2(-attackCheck.localPosition.x, attackCheck.localPosition.y);
-        }
-
-    }
-    void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, radius);
-        Gizmos.DrawWireSphere(attackCheck.position, radiusAttack);
-    }
-    void PlayerAttack()
-    {
-        Collider2D[] enemiesAttack = Physics2D.OverlapCircleAll(attackCheck.position, radiusAttack, layerEnemy);
-        for (int i = 0; i < enemiesAttack.Length; i++)
-        {
-            
-            Debug.Log(enemiesAttack[i].name);
-        }
-        enemy.setHealthEnemy(damage);
-    }
 }
 
 

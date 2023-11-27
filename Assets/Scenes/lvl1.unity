@@ -181,11 +181,11 @@ GameObject:
   - component: {fileID: 149616046}
   - component: {fileID: 149616045}
   - component: {fileID: 149616047}
-  - component: {fileID: 149616049}
   - component: {fileID: 149616050}
+  - component: {fileID: 149616051}
   m_Layer: 6
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -205,14 +205,7 @@ MonoBehaviour:
   speed: 5
   personaje: {fileID: 149616041}
   animacion: {fileID: 149616050}
-  attack: {fileID: 149616049}
   enemy: {fileID: 394072196}
-  attackCheck: {fileID: 1001245111}
-  radiusAttack: 0.5
-  layerEnemy:
-    serializedVersion: 2
-    m_Bits: 0
-  radius: 0
 --- !u!212 &149616043
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -374,26 +367,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &149616049
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 149616041}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03cc82010d53f5a43af0084e6a658aab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemy: {fileID: 394072196}
-  damage: 0
-  attackCheck: {fileID: 1001245111}
-  radiusAttack: 0.5
-  layerEnemy:
-    serializedVersion: 2
-    m_Bits: 128
-  radius: 0.5
 --- !u!114 &149616050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -407,6 +380,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animacion: {fileID: 149616047}
+--- !u!114 &149616051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149616041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03cc82010d53f5a43af0084e6a658aab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 394072196}
+  damage: 20
+  attackCheck: {fileID: 1001245111}
+  radiusAttack: 0.5
+  layerEnemy:
+    serializedVersion: 2
+    m_Bits: 128
+  timeNextAttack: 0
+  timeIdle: 1
 --- !u!1 &183533033
 GameObject:
   m_ObjectHideFlags: 0
@@ -2029,44 +2023,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 149616041}
+  speed: 2
   EmpezarJuego: 0
+  damage: 5
   health: {fileID: 2005474926}
+  healthEnemy: 400
   player: {fileID: 149616044}
---- !u!58 &394072202
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 394072195}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.145
 --- !u!224 &430406233 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3783316643776092730, guid: 06293b3201ed10f44abfc865cc727db9, type: 3}
@@ -2608,7 +2570,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1001245111}
-  - component: {fileID: 1001245112}
   m_Layer: 6
   m_Name: attack
   m_TagString: Untagged
@@ -2624,33 +2585,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1001245110}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -125, y: -0.068, z: 0}
-  m_LocalScale: {x: 1.2261131, y: 1.2261131, z: 1.2261131}
+  m_LocalPosition: {x: 0.141, y: -0.015, z: 0}
+  m_LocalScale: {x: 1.1648074, y: 1.2261131, z: 1.2261131}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 149616044}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1001245112
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1001245110}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03cc82010d53f5a43af0084e6a658aab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemy: {fileID: 394072196}
-  damage: 0
-  attackCheck: {fileID: 1001245111}
-  radiusAttack: 0.5
-  layerEnemy:
-    serializedVersion: 2
-    m_Bits: 128
-  radius: 0
 --- !u!1 &1120785893 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5231504897697117654, guid: d021c08c7fc48ea42a9c5702295cc2ef, type: 3}
@@ -17918,19 +17859,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1445054582537646367, guid: 11d7e8627930f854799f4c793f3a9308, type: 3}
       propertyPath: m_Size.x
-      value: 0.2897147
+      value: 0.16279201
       objectReference: {fileID: 0}
     - target: {fileID: 1445054582537646367, guid: 11d7e8627930f854799f4c793f3a9308, type: 3}
       propertyPath: m_Size.y
-      value: 0.3405974
+      value: 0.2773288
       objectReference: {fileID: 0}
     - target: {fileID: 1445054582537646367, guid: 11d7e8627930f854799f4c793f3a9308, type: 3}
       propertyPath: m_Offset.x
-      value: 0.0013115183
+      value: 0.04097482
       objectReference: {fileID: 0}
     - target: {fileID: 1445054582537646367, guid: 11d7e8627930f854799f4c793f3a9308, type: 3}
       propertyPath: m_Offset.y
-      value: 0.007589668
+      value: -0.024044625
       objectReference: {fileID: 0}
     - target: {fileID: 2002928450786101228, guid: 11d7e8627930f854799f4c793f3a9308, type: 3}
       propertyPath: m_Constraints
@@ -17999,9 +17940,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7520783225593305366, guid: 11d7e8627930f854799f4c793f3a9308, type: 3}
       insertIndex: -1
       addedObject: {fileID: 394072196}
-    - targetCorrespondingSourceObject: {fileID: 7520783225593305366, guid: 11d7e8627930f854799f4c793f3a9308, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 394072202}
   m_SourcePrefab: {fileID: 100100000, guid: 11d7e8627930f854799f4c793f3a9308, type: 3}
 --- !u!1001 &8734837140694061570
 PrefabInstance:
