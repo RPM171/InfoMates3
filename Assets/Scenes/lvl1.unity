@@ -12443,6 +12443,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClosedLevelDoor
       objectReference: {fileID: 0}
+    - target: {fileID: 7636082226768937391, guid: 2d1504d570f54d64e9901c99ffcd03d1, type: 3}
+      propertyPath: OpenedLevelDoor
+      value: 
+      objectReference: {fileID: 1162491314, guid: 9d75cc31cf7cd254e8f52e67b61c7383, type: 3}
     - target: {fileID: 8196592818151285751, guid: 2d1504d570f54d64e9901c99ffcd03d1, type: 3}
       propertyPath: m_RootOrder
       value: 13

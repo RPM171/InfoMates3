@@ -29,7 +29,7 @@ public class EnemyGenerator : MonoBehaviour
             Instantiate(enemigoPrefab, posicion, Quaternion.identity);
             enemigosGenerados++;
             tiempoUltimaGeneracion = Time.time;
-            enemigoPrefab.SetActive(true);
+           // enemigoPrefab.SetActive(true);
             
         }
         else
