@@ -52,7 +52,8 @@ public class Player_attack : MonoBehaviour
 
     public void gizosOrient()
     {
-        attackCheck.transform.position = new Vector2(-attackCheck.transform.position.x, attackCheck.transform.position.y);
+        attackCheck.transform.position = new Vector2(attackCheck.position.x,attackCheck.position.y);
+
     }
 
 }

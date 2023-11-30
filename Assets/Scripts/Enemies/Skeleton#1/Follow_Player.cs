@@ -16,36 +16,61 @@ public class Follow_Player : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private float distance;
     private NavMeshAgent agent;
+    [SerializeField] private Transform chechAttack;
+    [SerializeField] private float radiusAttack;
+    [SerializeField] private Transform checkAttack;
 
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
-        spriteRenderer= GetComponentInChildren<SpriteRenderer>();
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
 
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-            movimientoEnemigo();
-            AnimacionMuerte();
-            distancePlayer(distance);
-            if (detectado == true) 
-            {
-                animator.SetTrigger("attack");
-            }
-        
+        movimientoEnemigo();
+        AnimacionMuerte();
+        distancePlayer(distance);
+        if (detectado == true)
+        {
+            animator.SetTrigger("attack");
+        }
 
+
+    }
+    private void Attack()
+    {
+        Collider2D[] objeto = Physics2D.OverlapCircleAll(chechAttack.position, radiusAttack);
+        foreach (Collider2D collision in objeto)
+        {
+            if (collision.CompareTag("Player"))
+            {
+                dmgEnemy();
+            }
+        }
+    }
+    private void AttackR()
+    {
+        Collider2D[] objeto = Physics2D.OverlapCircleAll(checkAttack.position, radiusAttack);
+        foreach (Collider2D collision in objeto)
+        {
+            if (collision.CompareTag("Player"))
+            {
+                dmgEnemy();
+            }
+        }
     }
     public void movimientoEnemigo()
     {
-            agent.SetDestination(player.position);
-            Orientation(player.position.x-transform.position.x);
+        agent.SetDestination(player.position);
+        Orientation(player.position.x - transform.position.x);
 
 
         if (Player.transform.position.x > transform.position.x)
@@ -56,10 +81,10 @@ public class Follow_Player : MonoBehaviour
         {
             animator.SetBool("WalkLeft", true);
         }
-            
-        
+
+
     }
-    
+
     public void AnimacionMuerte()
     {
         if (healthEnemy <= 0)
@@ -78,7 +103,7 @@ public class Follow_Player : MonoBehaviour
     }
     public void setHealthEnemy(int playerDamage)
     {
-        healthEnemy = healthEnemy-playerDamage;
+        healthEnemy = healthEnemy - playerDamage;
     }
     public void distancePlayer(float dist)
     {
@@ -87,15 +112,16 @@ public class Follow_Player : MonoBehaviour
         if (distance < 0.1)
         {
             detectado = true;
-        }else if (distance > 0.1)
+        }
+        else if (distance > 0.1)
         {
             detectado = false;
         }
     }
 
-    void Orientation (float moveX)
+    void Orientation(float moveX)
     {
-        if (moveX<0)
+        if (moveX < 0)
         {
             spriteRenderer.flipX = false;
         }
@@ -105,10 +131,16 @@ public class Follow_Player : MonoBehaviour
         }
     }
 
-    private void OnDrawGizmosSelected()
+    private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawLine(transform.position, transform.position+transform.right*distance);
+        Gizmos.DrawWireSphere(chechAttack.position, radiusAttack);
+        Gizmos.DrawWireSphere(checkAttack.position,radiusAttack);
     }
+    
 
+    public void dmgEnemy()
+    {
+        GameObject.Find("HealthManager").GetComponent<HealthManager>().takeDamage(damage);
+    }
 }

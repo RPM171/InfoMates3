@@ -14,7 +14,15 @@ public class Scenes : MonoBehaviour
     {
         SceneManager.LoadScene("Menu");
     }
-    
+    public void ScenaMates()
+    {
+        SceneManager.LoadScene("Mates");
+    }
+    public void LvlBoss()
+    {
+        SceneManager.LoadScene("LikeBoss");
+    }
+
 }
 
 

@@ -14,8 +14,6 @@ public class Problemas : MonoBehaviour
     private int randomProblema;
     private int resultado;
     public TextMeshProUGUI texto;
-    public TextMeshProUGUI resultadoText;
-    public Text inputFieldResultatEscrit;
     public InputField inputField;
 
     // Start is called before the first frame update
@@ -38,44 +36,22 @@ public class Problemas : MonoBehaviour
         listaProblemas[0] = primero;
         listaProblemas[1] = segundo;
         texto.text = listaProblemas[randomProblema];
+        PlayerPrefs.SetInt("NumeroProblema", randomProblema);
 
 
     }
 
     public void LeerResultado()
     {
-
-        
-
-        // Debug.Log(resultadoText.text + " - " + resultadoString);
         if (inputField.text.Trim().Equals(resultadoString))
         {
             Debug.Log("Bien");
+            GameObject.Find("SceneManager").GetComponent<Scenes>().LvlBoss();
         }
         else
         {
             Debug.Log("Mal");
-        }
-
-        /*if (int.TryParse(resultadoText.text, out inputUsuari)){
-        
-            Debug.Log("Es integer"); 
-            if (inputUsuari==resultado)
-            {
-                Debug.Log("Bien");
-            }
-            else
-            {
-                Debug.Log("Mal");
-            }
-
-        }
-        else
-        {
-            Debug.Log("No es integer");
-        }
-       */
-        
+        }        
     }
 }
 

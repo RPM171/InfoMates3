@@ -24,7 +24,7 @@ public class NextLevelDoorScipt : MonoBehaviour
         {
             if(isOpen && Input.GetKeyDown(KeyCode.E))
             {
-                //SceneManager.LoadScene("Operacion1");
+                GameObject.Find("SceneManager").GetComponent<Scenes>().ScenaMates();
             } 
             else
             {
@@ -37,8 +37,8 @@ public class NextLevelDoorScipt : MonoBehaviour
     private bool PLayerIsNear()
 
     {
-        float distanceToPlayer = Vector3.Distance(player.transform.position, transform.position);
-        return distanceToPlayer < 1f;
+        float distanceToPlayer = Vector2.Distance(player.transform.position, transform.position);
+        return distanceToPlayer < 4f;
     }
 
     private void OpenTrapdoor()

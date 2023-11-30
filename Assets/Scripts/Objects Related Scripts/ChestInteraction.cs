@@ -15,6 +15,7 @@ public class ChestInteraction : MonoBehaviour
     private float contador;
     public Camera mainCamera;
     private Vector3 lockedCameraPosition;
+    bool Open = false;
     
 
   
@@ -31,8 +32,8 @@ public class ChestInteraction : MonoBehaviour
     }
     private void Update()
     {
-        
-        if (Input.GetKeyDown(KeyCode.E) && IsCharacterWithinRadius())
+
+        if (Input.GetKeyDown(KeyCode.E) && IsCharacterWithinRadius() && Open == false)
         {
             if (contador != 1)
             {
@@ -43,6 +44,7 @@ public class ChestInteraction : MonoBehaviour
                 contador = 1;
                 mainCamera.transform.position = lockedCameraPosition;
                 charactermovement.speed = 0;
+                Open = true;
                 
             }
             else

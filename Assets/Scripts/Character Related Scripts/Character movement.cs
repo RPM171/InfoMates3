@@ -23,6 +23,7 @@ public class Charactermovement : MonoBehaviour
     public Follow_Player enemy;
     public Transform attackCheck;
     private Player_attack attack;
+    
 
 
 
@@ -69,15 +70,18 @@ public class Charactermovement : MonoBehaviour
 
     void OrientationSprite(float moveX)
     {
+        attackCheck.position = new Vector2(transform.position.x,transform.position.y);
         if (moveX > 0 )
         {
             spriteRenderer.flipX = true;
-           
+            attackCheck.position = new Vector2(transform.position.x + 0.6f, transform.position.y);
+
+
         }
         else if (moveX < 0)
         {
             spriteRenderer.flipX = false;
-          
+            attackCheck.position = new Vector2(transform.position.x - 0.6f, transform.position.y);
 
         }
         
