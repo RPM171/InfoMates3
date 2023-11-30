@@ -16,6 +16,7 @@ public class Problemas : MonoBehaviour
     public TextMeshProUGUI texto;
     public TextMeshProUGUI resultadoText;
     public Text inputFieldResultatEscrit;
+    public InputField inputField;
 
     // Start is called before the first frame update
     void Start()
@@ -43,21 +44,11 @@ public class Problemas : MonoBehaviour
 
     public void LeerResultado()
     {
-        string inputUsuariString = Regex.Replace(resultadoText.text, "<.*?>", string.Empty);
 
-
-        Debug.Log("-------" + resultadoString.Equals(resultadoString) + "inputUsuariString=" + inputUsuariString);
-
-        /*int inputUsuari = 0;
-        inputUsuari += int.Parse(inputUsuariString);*/
-
-        Debug.Log(inputUsuariString);
-
-        bool iguals = (inputUsuariString == resultadoString);
-        Debug.Log("iguals=" + iguals);
+        
 
         // Debug.Log(resultadoText.text + " - " + resultadoString);
-        if (iguals)
+        if (inputField.text.Trim().Equals(resultadoString))
         {
             Debug.Log("Bien");
         }

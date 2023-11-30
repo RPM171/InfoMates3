@@ -21,10 +21,8 @@ public class Charactermovement : MonoBehaviour
     public AnimacionKevin animacion;
     private SpriteRenderer spriteRenderer;
     public Follow_Player enemy;
-
-
-
-
+    public Transform attackCheck;
+    private Player_attack attack;
 
 
 
@@ -40,6 +38,8 @@ public class Charactermovement : MonoBehaviour
         animacion = GetComponent<AnimacionKevin>();   
         spriteRenderer= GetComponentInChildren<SpriteRenderer>();
         enemy = GetComponent<Follow_Player>();
+        attack = GetComponent<Player_attack>();
+
 
 
 
@@ -72,17 +72,16 @@ public class Charactermovement : MonoBehaviour
         if (moveX > 0 )
         {
             spriteRenderer.flipX = true;
-            
-
+           
         }
         else if (moveX < 0)
         {
             spriteRenderer.flipX = false;
-            
+          
+
         }
         
     }
-
     void FixedUpdate()
     {
         if (!isPaused && rb.position != targetPosition)

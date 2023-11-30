@@ -50,5 +50,9 @@ public class Player_attack : MonoBehaviour
         Gizmos.DrawWireSphere(attackCheck.position, radiusAttack);
     }
 
+    public void gizosOrient()
+    {
+        attackCheck.transform.position = new Vector2(-attackCheck.transform.position.x, attackCheck.transform.position.y);
+    }
 
 }
