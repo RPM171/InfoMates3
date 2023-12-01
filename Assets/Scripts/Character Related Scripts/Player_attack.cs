@@ -42,6 +42,10 @@ public class Player_attack : MonoBehaviour
             {
                 collision.transform.GetComponent<Follow_Player>().setHealthEnemy(damage);
             }
+            if (collision.CompareTag("Boss"))
+            {
+                collision.transform.GetComponent<Boss>().TomarDaño(damage);
+            }
         }
     }
     private void OnDrawGizmos()

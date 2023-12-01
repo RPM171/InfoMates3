@@ -607,7 +607,7 @@ MonoBehaviour:
   personaje: {fileID: 981280411}
   animacion: {fileID: 981280413}
   enemy: {fileID: 0}
-  attackCheck: {fileID: 981280419}
+  attackCheck: {fileID: 1223149839}
 --- !u!212 &981280418
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13367,7 +13367,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4737502918283439766, guid: b7a6293ce4112104e83fc132d8570baa, type: 3}
       propertyPath: m_TagString
-      value: Enemy
+      value: Boss
       objectReference: {fileID: 0}
     - target: {fileID: 5545489034303660141, guid: b7a6293ce4112104e83fc132d8570baa, type: 3}
       propertyPath: m_RootOrder
@@ -13448,10 +13448,10 @@ PrefabInstance:
       addedObject: {fileID: 9006341395394805082}
     - targetCorrespondingSourceObject: {fileID: 4737502918283439766, guid: b7a6293ce4112104e83fc132d8570baa, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 9006341395394805081}
+      addedObject: {fileID: 9006341395394805084}
     - targetCorrespondingSourceObject: {fileID: 4737502918283439766, guid: b7a6293ce4112104e83fc132d8570baa, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 9006341395394805084}
+      addedObject: {fileID: 9006341395394805081}
     - targetCorrespondingSourceObject: {fileID: 4737502918283439766, guid: b7a6293ce4112104e83fc132d8570baa, type: 3}
       insertIndex: -1
       addedObject: {fileID: 9006341395394805087}

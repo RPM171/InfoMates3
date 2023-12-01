@@ -7,6 +7,8 @@ public class EnemyGenerator : MonoBehaviour
     [SerializeField] GameObject enemigoPrefab;
     public float tiempoEntreEnemigos;
     public int totalEnemigos; // Número total de enemigos a generar
+    public float X;
+    public float y;
 
     private int enemigosGenerados = 0;
     private float tiempoUltimaGeneracion;
@@ -25,7 +27,7 @@ public class EnemyGenerator : MonoBehaviour
     {
         if (enemigosGenerados < totalEnemigos && Time.time - tiempoUltimaGeneracion > tiempoEntreEnemigos)
         {
-            Vector2 posicion = new Vector2(-4.72f, -0.68f);
+            Vector2 posicion = new Vector2(X, y);
             Instantiate(enemigoPrefab, posicion, Quaternion.identity);
             enemigosGenerados++;
             tiempoUltimaGeneracion = Time.time;

@@ -69,8 +69,19 @@ public class Follow_Player : MonoBehaviour
     }
     public void movimientoEnemigo()
     {
-        agent.SetDestination(player.position);
-        Orientation(player.position.x - transform.position.x);
+        if (agent != null && player != null)
+        {
+            if (agent.isOnNavMesh && agent.isActiveAndEnabled)
+            {
+                agent.SetDestination(player.position);
+                Orientation(player.position.x - transform.position.x);
+            }
+            else
+            {
+                
+            }
+        }
+        
 
 
         if (Player.transform.position.x > transform.position.x)
