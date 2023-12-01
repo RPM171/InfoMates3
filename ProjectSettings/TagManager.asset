@@ -60,3 +60,6 @@ TagManager:
   - name: Pergamino
     uniqueID: 604761195
     locked: 0
+  - name: Superior
+    uniqueID: 1511605787
+    locked: 0
