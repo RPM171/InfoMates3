@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -21,6 +22,7 @@ public class NextLevelDoorScipt : MonoBehaviour
         player = GameObject.FindWithTag("Player");
         contador = 0;
         
+        
     }
 
     // Update is called once per frame
@@ -29,11 +31,18 @@ public class NextLevelDoorScipt : MonoBehaviour
         contador = GameManager.instance.enemigosMuertos;
         if (Input.GetKeyDown(KeyCode.E) && PLayerIsNear()&& contador >= 15)
         {
-            if(isOpen && Input.GetKeyDown(KeyCode.E))
+            OpenTrapdoor();
+
+            if (isOpen && Input.GetKeyDown(KeyCode.E))
             {
                 GameObject.Find("SceneManager").GetComponent<Scenes>().ScenaMates();
-            } 
-            else
+            }
+
+
+        }
+        else
+        {
+            if (Input.GetKeyDown(KeyCode.E) && PLayerIsNear())
             {
                 if (contador <= 14)
                 {
@@ -41,12 +50,8 @@ public class NextLevelDoorScipt : MonoBehaviour
                     StartCoroutine(DesactivarAvisoDespuesDeTiempo(2f));
 
                 }
-                else
-                {
-                    OpenTrapdoor();
-                }
+               
             }
-
         }
     }
     IEnumerator DesactivarAvisoDespuesDeTiempo(float tiempo)

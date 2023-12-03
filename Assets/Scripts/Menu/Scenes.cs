@@ -22,6 +22,10 @@ public class Scenes : MonoBehaviour
     {
         SceneManager.LoadScene("LikeBoss");
     }
+    public void Controles()
+    {
+        SceneManager.LoadScene("Controls");
+    }
 
 }
 

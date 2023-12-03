@@ -241,11 +241,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3783316643776092730, guid: 06293b3201ed10f44abfc865cc727db9, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 372.5
+      value: 441
       objectReference: {fileID: 0}
     - target: {fileID: 3783316643776092730, guid: 06293b3201ed10f44abfc865cc727db9, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 209.5
+      value: 246
       objectReference: {fileID: 0}
     - target: {fileID: 3783316643776092730, guid: 06293b3201ed10f44abfc865cc727db9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -451,7 +451,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 973.63, y: 528.47}
+  m_AnchoredPosition: {x: 989, y: 647}
   m_SizeDelta: {x: 37.855, y: 22.061}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &419503367
@@ -1250,8 +1250,8 @@ MonoBehaviour:
   animacion: {fileID: 981280413}
   enemy: {fileID: 0}
   attackCheck: {fileID: 1223149839}
-  healthManager: {fileID: 0}
-  maxHealth: 0
+  healthManager: {fileID: 272125018}
+  maxHealth: 100
 --- !u!212 &981280418
 SpriteRenderer:
   m_ObjectHideFlags: 0
