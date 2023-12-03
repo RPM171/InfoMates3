@@ -27,7 +27,7 @@ public class NextLevelDoorScipt : MonoBehaviour
     void Update()
     {
         contador = GameManager.instance.enemigosMuertos;
-        if (Input.GetKeyDown(KeyCode.E) && PLayerIsNear()&& contador >= 10)
+        if (Input.GetKeyDown(KeyCode.E) && PLayerIsNear()&& contador >= 15)
         {
             if(isOpen && Input.GetKeyDown(KeyCode.E))
             {
@@ -35,7 +35,7 @@ public class NextLevelDoorScipt : MonoBehaviour
             } 
             else
             {
-                if (contador < 10)
+                if (contador <= 14)
                 {
                     aviso.SetActive(true);
                     StartCoroutine(DesactivarAvisoDespuesDeTiempo(2f));

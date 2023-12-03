@@ -14,14 +14,14 @@ public class Boss : MonoBehaviour
 
     [Header("Vida")]
 
-    [SerializeField] private float vida;
-    [SerializeField] private HealthManager barra;
+    [SerializeField] private float maxVida;
+    private float vida;
+    [SerializeField] private HealthEnemy barra;
 
     [Header("Ataque")]
 
     [SerializeField] private float radiusAttack;
     [SerializeField] private Transform checkAttack;
-    private float TiempoDeEspera;
     private SpriteRenderer spriteRenderer;
     private Collider2D collider;
     private Vector2 offsetRigth, offsetLeft;
@@ -34,6 +34,8 @@ public class Boss : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        vida = maxVida;
+        barra.takeDamage(maxVida,vida);
         damage = 20;
         collider = GetComponent<Collider2D>();
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
@@ -69,7 +71,7 @@ public class Boss : MonoBehaviour
     public void TomarDaño(float damage)
     {
         vida -= damage;
-        //barra.CambiarVidaActual(vida);
+        barra.takeDamage(maxVida, vida);
         if (vida <= 0)
         {
             animator.SetTrigger("dead");
@@ -136,7 +138,7 @@ public class Boss : MonoBehaviour
         {
             if (collision.CompareTag("Player"))
             {
-                GameObject.Find("HealthManager").GetComponent<Charactermovement>().takeDamage(damage);
+                GameObject.Find("Player").GetComponent<Charactermovement>().takeDamage(damage);
             }
 
         }

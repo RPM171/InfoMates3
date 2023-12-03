@@ -1589,6 +1589,7 @@ MonoBehaviour:
   X: -4.72
   y: 0.68
   empezar: {fileID: 937721172}
+  startInvoke: 0
 --- !u!4 &191660024
 Transform:
   m_ObjectHideFlags: 0
@@ -2567,6 +2568,7 @@ MonoBehaviour:
   X: 21.84
   y: 10.19
   empezar: {fileID: 937721172}
+  startInvoke: 0
 --- !u!4 &773551230
 Transform:
   m_ObjectHideFlags: 0
@@ -3050,6 +3052,7 @@ MonoBehaviour:
   player: {fileID: 149616041}
   leeido: 0
   Follow_Player: {fileID: 1281451038}
+  enemygenerator: {fileID: 0}
 --- !u!1 &1001245110
 GameObject:
   m_ObjectHideFlags: 0
@@ -18688,11 +18691,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3783316643776092730, guid: 06293b3201ed10f44abfc865cc727db9, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -589
+      value: -613
       objectReference: {fileID: 0}
     - target: {fileID: 3783316643776092730, guid: 06293b3201ed10f44abfc865cc727db9, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 222.9
+      value: 239
       objectReference: {fileID: 0}
     - target: {fileID: 3783316643776092730, guid: 06293b3201ed10f44abfc865cc727db9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -18857,11 +18860,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5227746401547375706, guid: 66675acf7e1546e4a9d62c14a3739f6a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 384.88
+      value: 384.89
       objectReference: {fileID: 0}
     - target: {fileID: 5227746401547375706, guid: 66675acf7e1546e4a9d62c14a3739f6a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 144
+      value: 195
       objectReference: {fileID: 0}
     - target: {fileID: 5227746401547375706, guid: 66675acf7e1546e4a9d62c14a3739f6a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
