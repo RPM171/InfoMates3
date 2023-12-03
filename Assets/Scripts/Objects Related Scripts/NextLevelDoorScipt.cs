@@ -11,7 +11,7 @@ public class NextLevelDoorScipt : MonoBehaviour
     private bool isOpen = false;
     private SpriteRenderer spriteRenderer;
     private GameObject player;
-    //public float contador;
+    public float contador;
     [SerializeField] private GameObject aviso;
     [SerializeField] private GameManager enemy;
     // Start is called before the first frame update
@@ -19,15 +19,15 @@ public class NextLevelDoorScipt : MonoBehaviour
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         player = GameObject.FindWithTag("Player");
-        //contador = 0;
+        contador = 0;
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        // contador = GameManager.instance.enemigosMuertos;
-        if (Input.GetKeyDown(KeyCode.E) && PLayerIsNear()/*&& contador >= 10*/)
+        contador = GameManager.instance.enemigosMuertos;
+        if (Input.GetKeyDown(KeyCode.E) && PLayerIsNear()&& contador >= 10)
         {
             if(isOpen && Input.GetKeyDown(KeyCode.E))
             {
@@ -35,16 +35,16 @@ public class NextLevelDoorScipt : MonoBehaviour
             } 
             else
             {
-                /*if (contador < 10)
+                if (contador < 10)
                 {
                     aviso.SetActive(true);
                     StartCoroutine(DesactivarAvisoDespuesDeTiempo(2f));
 
-                }*/
-                /*else
-                {*/
+                }
+                else
+                {
                     OpenTrapdoor();
-                //}
+                }
             }
 
         }

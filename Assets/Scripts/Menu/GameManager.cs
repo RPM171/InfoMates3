@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     public GameObject GameOver;
     public GameObject Pergamino;
     public GameObject textPergamino;
-   /* public static GameManager instance;
+    public static GameManager instance;
     public int enemigosMuertos = 0;
 
     private void Awake()
@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
     {
         enemigosMuertos++;
         Debug.Log("Enemigos muertos: " + enemigosMuertos);
-    }*/
+    }
     public enum EstatGameManager
     {
         Inici,
@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         _estatGameManager = EstatGameManager.Inici;
-         //enemigosMuertos=0;
+        
         
     }
     

@@ -113,7 +113,7 @@ public class Follow_Player : MonoBehaviour
     }
     public void Muerte()
     {
-       // FindObjectOfType<GameManager>().IncrementarEnemigosMuertos();
+        FindObjectOfType<GameManager>().IncrementarEnemigosMuertos();
         Destroy(gameObject);
 
     }

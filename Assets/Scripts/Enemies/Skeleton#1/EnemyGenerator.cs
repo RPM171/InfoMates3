@@ -9,19 +9,25 @@ public class EnemyGenerator : MonoBehaviour
     public int totalEnemigos; // Número total de enemigos a generar
     public float X;
     public float y;
+    public EmpezarJuego empezar;
+    public bool startInvoke = false;
 
     private int enemigosGenerados = 0;
     private float tiempoUltimaGeneracion;
     void Start()
     {
         tiempoUltimaGeneracion = Time.time;
-        InvokeRepeating("GenerarEnemigo", 5f,5f);
+        empezar = GetComponent<EmpezarJuego>();
+        InvokeRepeating("GenerarEnemigo", 5f, 5f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        GenerarEnemigo();
+        if (startInvoke == true)
+        {
+            GenerarEnemigo();
+        }
     }
     void GenerarEnemigo()
     {
