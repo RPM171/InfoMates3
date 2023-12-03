@@ -9,10 +9,10 @@ public class HealthManager : MonoBehaviour
     public Image healthbar;
     public float healthAmount = 100f;
 
+
     // Start is called before the first frame update
     void Start()
     {
-
     }
 
     // Update is called once per frame
@@ -23,13 +23,12 @@ public class HealthManager : MonoBehaviour
             GameObject.Find("GameManager").GetComponent<GameManager>().SetEstatGameManager(GameManager.EstatGameManager.GameOver);
             Time.timeScale = 0;
         }
-
-        
     }
-    public void takeDamage(float damage)
+    public void healtPlayer(float maxHealth, float health)
     {
-        healthAmount -= damage;
-        healthbar.fillAmount = healthAmount / 100f;
+        healthAmount = health;
+        healthbar.fillAmount = health / maxHealth;
+        
     }
 
     public void Heal(float healingAmount)
@@ -38,4 +37,5 @@ public class HealthManager : MonoBehaviour
         healthAmount = Mathf.Clamp(healthAmount, 0, 100);
         healthbar.fillAmount = healthAmount / 100f;
     }
+   
 }

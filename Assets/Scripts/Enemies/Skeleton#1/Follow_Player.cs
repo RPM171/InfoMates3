@@ -1,8 +1,11 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+using System.Threading;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UI;
 
 public class Follow_Player : MonoBehaviour
 {
@@ -10,7 +13,7 @@ public class Follow_Player : MonoBehaviour
     private Boolean detectado = false;
     [SerializeField] private int damage;
     public HealthManager health;
-    [SerializeField] private int healthEnemy;
+    [SerializeField] private float healthEnemy;
     private Animator animator;
     public Transform player;
     private SpriteRenderer spriteRenderer;
@@ -19,10 +22,18 @@ public class Follow_Player : MonoBehaviour
     [SerializeField] private Transform chechAttack;
     [SerializeField] private float radiusAttack;
     [SerializeField] private Transform checkAttack;
+    [SerializeField] private HealthEnemy scriptHealth;
+    private float healtActual;
+
+
+
 
     // Start is called before the first frame update
     void Start()
     {
+
+        healtActual = healthEnemy;
+        scriptHealth.takeDamage(healthEnemy, healtActual);
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         agent = GetComponent<NavMeshAgent>();
@@ -76,12 +87,8 @@ public class Follow_Player : MonoBehaviour
                 agent.SetDestination(player.position);
                 Orientation(player.position.x - transform.position.x);
             }
-            else
-            {
-                
-            }
         }
-        
+
 
 
         if (Player.transform.position.x > transform.position.x)
@@ -97,24 +104,28 @@ public class Follow_Player : MonoBehaviour
     }
 
     public void AnimacionMuerte()
-    {
-        if (healthEnemy <= 0)
-        {
-            if (healthEnemy <= 0)
+    { 
+    if (healtActual <= 0)
             {
-                animator.SetTrigger("dead");
-                agent.speed = 0;
-
+              
+              animator.SetTrigger("dead");     
             }
-        }
     }
     public void Muerte()
     {
+       // FindObjectOfType<GameManager>().IncrementarEnemigosMuertos();
         Destroy(gameObject);
+
     }
     public void setHealthEnemy(int playerDamage)
     {
-        healthEnemy = healthEnemy - playerDamage;
+
+        healtActual = healtActual - playerDamage;
+        scriptHealth.takeDamage(healthEnemy, healtActual);
+        StartCoroutine(CambiarColorTemporalmente(0.5f));
+        
+
+
     }
     public void distancePlayer(float dist)
     {
@@ -146,12 +157,25 @@ public class Follow_Player : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(chechAttack.position, radiusAttack);
-        Gizmos.DrawWireSphere(checkAttack.position,radiusAttack);
+        Gizmos.DrawWireSphere(checkAttack.position, radiusAttack);
     }
-    
+
 
     public void dmgEnemy()
     {
-        GameObject.Find("HealthManager").GetComponent<HealthManager>().takeDamage(damage);
+        GameObject.Find("Player").GetComponent<Charactermovement>().takeDamage(damage);
     }
+    
+    IEnumerator CambiarColorTemporalmente(float duracion)
+    {
+        // Cambiar el color a "nuevoColor"
+        spriteRenderer.color = Color.red;
+
+        // Esperar la duración especificada
+        yield return new WaitForSeconds(duracion);
+
+        // Volver al color original después de la espera
+        spriteRenderer.color = Color.white;
+    }
+   
 }

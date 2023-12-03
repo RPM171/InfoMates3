@@ -23,6 +23,12 @@ public class Charactermovement : MonoBehaviour
     public Follow_Player enemy;
     public Transform attackCheck;
     private Player_attack attack;
+
+    [Header("Vida")]
+
+    [SerializeField] private HealthManager healthManager;
+    [SerializeField] private float maxHealth;
+    private float health;
     
 
 
@@ -34,6 +40,7 @@ public class Charactermovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        health = maxHealth;
         rb = GetComponent<Rigidbody2D>();
         targetPosition = transform.position;
         animacion = GetComponent<AnimacionKevin>();   
@@ -123,7 +130,25 @@ public class Charactermovement : MonoBehaviour
         player.transform.position=teleport;
 
     }
+    public void takeDamage(int damage)
+    {
+        health -= damage;
+        healthManager.healtPlayer(maxHealth, health);
+        StartCoroutine(CambiarColorTemporalmente(0.5f));
 
+    }
+    IEnumerator CambiarColorTemporalmente(float duracion)
+    {
+        // Cambiar el color a "nuevoColor"
+        spriteRenderer.color = Color.red;
+
+        // Esperar la duración especificada
+        yield return new WaitForSeconds(duracion);
+
+        // Volver al color original después de la espera
+        spriteRenderer.color = Color.white;
+    }
+    
 }
 
 

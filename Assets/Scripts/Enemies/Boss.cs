@@ -136,7 +136,7 @@ public class Boss : MonoBehaviour
         {
             if (collision.CompareTag("Player"))
             {
-                GameObject.Find("HealthManager").GetComponent<HealthManager>().takeDamage(damage);
+                GameObject.Find("HealthManager").GetComponent<Charactermovement>().takeDamage(damage);
             }
 
         }
