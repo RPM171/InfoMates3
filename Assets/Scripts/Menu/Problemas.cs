@@ -15,11 +15,14 @@ public class Problemas : MonoBehaviour
     private int resultado;
     public TextMeshProUGUI texto;
     public InputField inputField;
+    private string escena;
+    private int numeroProblema;
 
     // Start is called before the first frame update
     void Start()
     {
-       texto.text = "Hola2";
+       escena = PlayerPrefs.GetString("NombreEscenaActual");
+        texto.text = "Hola2";
        randomProblema = Random.Range(0, 2);
        parametros[0] = Random.Range(0, 501); ; parametros[1] = Random.Range(0, 501) ; parametros[2] = Random.Range(0, 501); parametros[3] = Random.Range(0, 501);
         resultado = parametros[0] + parametros[1] + parametros[2] + parametros[3];
@@ -36,7 +39,7 @@ public class Problemas : MonoBehaviour
         listaProblemas[0] = primero;
         listaProblemas[1] = segundo;
         texto.text = listaProblemas[randomProblema];
-        PlayerPrefs.SetInt("NumeroProblema", randomProblema);
+        PlayerPrefs.SetInt("numeroProblemas", numeroProblema);
 
 
     }
@@ -45,8 +48,16 @@ public class Problemas : MonoBehaviour
     {
         if (inputField.text.Trim().Equals(resultadoString))
         {
+            if (escena.Equals("lvl1"))
+            {
             Debug.Log("Bien");
-            GameObject.Find("SceneManager").GetComponent<Scenes>().LvlBoss();
+            GameObject.Find("SceneManager").GetComponent<Scenes>().lvl2();
+            
+            }if (escena.Equals("lvl2"))
+            {
+                GameObject.Find("SceneManager").GetComponent<Scenes>().LvlBoss();
+            }
+            
         }
         else
         {

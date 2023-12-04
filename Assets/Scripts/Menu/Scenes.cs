@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class Scenes : MonoBehaviour
 {
+    private void Start()
+    {
+        
+    }
+    
     public void EscenaJugar()
     {
         SceneManager.LoadScene("lvl1");
@@ -25,6 +30,10 @@ public class Scenes : MonoBehaviour
     public void Controles()
     {
         SceneManager.LoadScene("Controls");
+    }
+    public void lvl2()
+    {
+        SceneManager.LoadScene("lvl2");
     }
 
 }

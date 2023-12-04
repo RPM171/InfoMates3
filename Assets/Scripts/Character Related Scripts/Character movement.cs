@@ -8,6 +8,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Assertions.Must;
 using UnityEngine.Tilemaps;
+using UnityEngine.SceneManagement;
 
 public class Charactermovement : MonoBehaviour
 {
@@ -29,7 +30,8 @@ public class Charactermovement : MonoBehaviour
     [SerializeField] private HealthManager healthManager;
     [SerializeField] private float maxHealth;
     private float health;
-    
+
+
 
 
 
@@ -40,6 +42,7 @@ public class Charactermovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         health = maxHealth;
         rb = GetComponent<Rigidbody2D>();
         targetPosition = transform.position;
@@ -47,7 +50,7 @@ public class Charactermovement : MonoBehaviour
         spriteRenderer= GetComponentInChildren<SpriteRenderer>();
         enemy = GetComponent<Follow_Player>();
         attack = GetComponent<Player_attack>();
-
+        PlayerPrefs.SetString("NombreEscenaActual", SceneManager.GetActiveScene().name);
 
 
 
@@ -149,6 +152,9 @@ public class Charactermovement : MonoBehaviour
         spriteRenderer.color = Color.white;
     }
     
+
+// Para obtener el nombre de la escena en otra parte del código o en otra escena
+string nombreEscena = PlayerPrefs.GetString("NombreEscenaActual");
 }
 
 

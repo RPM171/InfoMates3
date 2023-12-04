@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Mates.unity
     guid: b80adefbe8bc5954aad0b7d4cf176cb0
   - enabled: 1
+    path: Assets/Scenes/lvl2.unity
+    guid: 3d3adf471f9955045a9a919bbd8810ed
+  - enabled: 1
     path: Assets/Scenes/LikeBoss.unity
     guid: a5986ef4d6ca6f84186ee8cdeffdf93c
   m_configObjects: {}

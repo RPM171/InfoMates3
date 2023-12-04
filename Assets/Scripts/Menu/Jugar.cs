@@ -12,7 +12,7 @@ public class Jugar : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            GameObject.Find("SceneManager").GetComponent<Scenes>().Controles();
+            GameObject.Find("SceneManager").GetComponent<Scenes>().EscenaJugar();
         }
     }
 }

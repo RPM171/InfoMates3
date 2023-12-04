@@ -558,7 +558,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Score
+  m_text: Controls
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -621,7 +621,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 4.831833, y: 0, z: 6.9599915, w: -1.6106262}
+  m_margin: {x: 4.831833, y: 0, z: -53.43051, w: -1.6106262}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1242,8 +1242,9 @@ GameObject:
   - component: {fileID: 718240212}
   - component: {fileID: 718240211}
   - component: {fileID: 718240214}
+  - component: {fileID: 718240215}
   m_Layer: 5
-  m_Name: PuntuacionesGrande
+  m_Name: ControlesGrande
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1313,7 +1314,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 718240212}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 718240215}
+        m_TargetAssemblyTypeName: Controls, Assembly-CSharp
+        m_MethodName: controls
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &718240212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1381,6 +1394,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &718240215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718240209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6714c62b8b8aacb4d8c8261360ca78f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &773218090
 GameObject:
   m_ObjectHideFlags: 0
@@ -1394,6 +1419,7 @@ GameObject:
   - component: {fileID: 773218093}
   - component: {fileID: 773218092}
   - component: {fileID: 773218095}
+  - component: {fileID: 773218096}
   m_Layer: 5
   m_Name: SalirGrande
   m_TagString: Untagged
@@ -1465,7 +1491,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 773218093}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 773218096}
+        m_TargetAssemblyTypeName: Exit, Assembly-CSharp
+        m_MethodName: Salir
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &773218093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1533,6 +1571,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &773218096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773218090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cf5e33616abfe14698dcd3736d5c367, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &839413721
 GameObject:
   m_ObjectHideFlags: 0
@@ -1591,7 +1641,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Score
+  m_text: Controls
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -2045,7 +2095,7 @@ GameObject:
   - component: {fileID: 1280742296}
   - component: {fileID: 1280742300}
   m_Layer: 5
-  m_Name: BotonPuntuaciones
+  m_Name: BotonControles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
