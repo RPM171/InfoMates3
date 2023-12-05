@@ -7,13 +7,13 @@ using UnityEngine.UI;
 public class HealthManager : MonoBehaviour
 {
     public Image healthbar;
-    public float healthAmount = 100f;
+    private float healthAmount=1;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        healthAmount = 100f;
+        
     }
 
     // Update is called once per frame

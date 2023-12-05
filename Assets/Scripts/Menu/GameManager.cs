@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        DontDestroyOnLoad(gameObject);
+        
     }
 
     public void IncrementarEnemigosMuertos()
@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour
     {
         _estatGameManager = EstatGameManager.Inici;
         
-        
+
     }
     
 
@@ -58,7 +58,7 @@ public class GameManager : MonoBehaviour
         switch (_estatGameManager)
         {
             case EstatGameManager.Inici:
-               
+                GameOver.SetActive(false);
                 break;
             case EstatGameManager.Jugant:
                 GameOver.SetActive(false);

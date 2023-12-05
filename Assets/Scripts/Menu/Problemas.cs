@@ -17,7 +17,7 @@ public class Problemas : MonoBehaviour
     public InputField inputField;
     private string escena;
     private int numeroProblema;
-
+    private int solucionario;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,34 +34,39 @@ public class Problemas : MonoBehaviour
     void Update()
     {
         
-        primero = "Pocion de curacion: Para crear una poción de curación, necesitas mezclar partes de hígado de cerdo,corazón de pollo, pico de cuervo y uña de caballo.Si el hígado de cerdo pesa " + parametros[0] + " gramos, el corazón de pollo pesa " + parametros[1] + "  gramos, el pico de cuervo con " + parametros[2] + " gramos y uña de caballo que pesa " + parametros[3] + " ¿cuántos gramos pesara la pocion?";
+        primero = "Pocion de vida: Para crear una poción de vida, necesitas mezclar partes de hígado de cerdo,corazón de pollo, pico de cuervo y uña de caballo.Si el hígado de cerdo pesa " + parametros[0] + " gramos, el corazón de pollo pesa " + parametros[1] + "  gramos, el pico de cuervo con " + parametros[2] + " gramos y uña de caballo que pesa " + parametros[3] + " ¿cuántos gramos pesara la pocion?";
         segundo = "Poción de fuerza: Para crear una poción de fuerza, necesitas mezclar partes iguales de cuernos de toro, colmillos de jabalí, aleta de tiburon y una anguila. Si los cuernos de toro pesan " + parametros[0] + " gramos y los colmillos de jabalí pesan " + parametros[1] + " gramos, los gramos de aleta de tiburon pesa " + parametros[2] + " y una anguila de " + parametros[3] + " ¿cuántos gramos pesara la pocion?";
         listaProblemas[0] = primero;
         listaProblemas[1] = segundo;
         texto.text = listaProblemas[randomProblema];
-        PlayerPrefs.SetInt("numeroProblemas", numeroProblema);
+        PlayerPrefs.SetInt("numeroProblemas", randomProblema);
+        PlayerPrefs.SetInt("Solucionario",solucionario);
 
 
     }
 
     public void LeerResultado()
     {
+        
         if (inputField.text.Trim().Equals(resultadoString))
         {
             if (escena.Equals("lvl1"))
             {
             Debug.Log("Bien");
             GameObject.Find("SceneManager").GetComponent<Scenes>().lvl2();
+                solucionario = 1;
             
             }if (escena.Equals("lvl2"))
             {
                 GameObject.Find("SceneManager").GetComponent<Scenes>().LvlBoss();
+                solucionario = 1;
             }
             
         }
         else
         {
             Debug.Log("Mal");
+            solucionario = 0;
         }        
     }
 }

@@ -7,7 +7,7 @@ public class Player_attack : MonoBehaviour
 {
 
     [SerializeField] private Follow_Player enemy;
-    [SerializeField] private int damage;
+    [SerializeField] public int damage;
     [SerializeField] private Transform attackCheck;
     [SerializeField] private float radiusAttack;
     private Animator animator;

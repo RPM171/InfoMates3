@@ -10672,7 +10672,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthbar: {fileID: 399020800}
-  healthAmount: 100
 --- !u!4 &1231128614
 Transform:
   m_ObjectHideFlags: 0
@@ -11368,7 +11367,7 @@ MonoBehaviour:
   enemy: {fileID: 445477906}
   attackCheck: {fileID: 771497042}
   healthManager: {fileID: 1231128613}
-  maxHealth: 100
+  maxHealth: 130
 --- !u!212 &1552032538
 SpriteRenderer:
   m_ObjectHideFlags: 0

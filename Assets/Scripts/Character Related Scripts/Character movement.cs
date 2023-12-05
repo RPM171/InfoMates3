@@ -31,18 +31,17 @@ public class Charactermovement : MonoBehaviour
     [SerializeField] private float maxHealth;
     private float health;
 
-
-
-
-
-
-
+    [Header("Pociones")]
+    private int Problema;
+    private int Solucion;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        Problema = PlayerPrefs.GetInt("numeroProblemas");
+        Solucion = PlayerPrefs.GetInt("Solucionario");
+        BuffPociones();
         health = maxHealth;
         rb = GetComponent<Rigidbody2D>();
         targetPosition = transform.position;
@@ -51,7 +50,7 @@ public class Charactermovement : MonoBehaviour
         enemy = GetComponent<Follow_Player>();
         attack = GetComponent<Player_attack>();
         PlayerPrefs.SetString("NombreEscenaActual", SceneManager.GetActiveScene().name);
-
+        
 
 
     }
@@ -152,9 +151,47 @@ public class Charactermovement : MonoBehaviour
         spriteRenderer.color = Color.white;
     }
     
+    public void BuffPociones()
+    {
+        if (!SceneManager.GetActiveScene().name.Equals("lvl1"))
+        {
+            if (Solucion==1)
+            {
+                switch (Problema)
+                {
+                    case 0:
+                        maxHealth += 30;
+                        break;
 
-// Para obtener el nombre de la escena en otra parte del código o en otra escena
-string nombreEscena = PlayerPrefs.GetString("NombreEscenaActual");
+                    case 1:
+                        attack.damage += 10;
+                        break;
+
+                    case 2:
+                        speed += 1;
+                        break;
+                }
+            }
+            if (Solucion == 0)
+            {
+
+                switch (Problema)
+                {
+                    case 0:
+                        maxHealth -= 10;
+                        break;
+
+                    case 1:
+                        attack.damage -= 5;
+                        break;
+
+                    case 2:
+                        speed -= 1;
+                        break;
+                }
+            }
+        }
+    }
 }
 
 

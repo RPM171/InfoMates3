@@ -15,6 +15,7 @@ public class VolverMenu : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            GameObject.Find("GameManager").GetComponent<GameManager>().SetEstatGameManager(GameManager.EstatGameManager.Inici);
             GameObject.Find("SceneManager").GetComponent<Scenes>().VolverAlMenu();
         }
 
