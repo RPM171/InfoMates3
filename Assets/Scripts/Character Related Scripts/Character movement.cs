@@ -24,6 +24,7 @@ public class Charactermovement : MonoBehaviour
     public Follow_Player enemy;
     public Transform attackCheck;
     private Player_attack attack;
+    private string escena;
 
     [Header("Vida")]
 
@@ -49,6 +50,7 @@ public class Charactermovement : MonoBehaviour
         PlayerPrefs.SetString("NombreEscenaActual", SceneManager.GetActiveScene().name);
         
 
+        }
 
     }
 
@@ -56,6 +58,7 @@ public class Charactermovement : MonoBehaviour
    void Update()
 
 {
+        
         
         Vector2 moveDirection = (targetPosition - rb.position).normalized;
         
@@ -141,10 +144,10 @@ public class Charactermovement : MonoBehaviour
         // Cambiar el color a "nuevoColor"
         spriteRenderer.color = Color.red;
 
-        // Esperar la duración especificada
+        // Esperar la duraciï¿½n especificada
         yield return new WaitForSeconds(duracion);
 
-        // Volver al color original después de la espera
+        // Volver al color original despuï¿½s de la espera
         spriteRenderer.color = Color.white;
     }
 }
