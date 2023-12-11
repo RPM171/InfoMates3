@@ -209,6 +209,8 @@ MonoBehaviour:
   attackCheck: {fileID: 1001245111}
   healthManager: {fileID: 2005474926}
   maxHealth: 100
+  Problema: 0
+  Solucion: 0
 --- !u!212 &149616043
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1564,7 +1566,7 @@ GameObject:
   m_Component:
   - component: {fileID: 191660024}
   - component: {fileID: 191660023}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EnemyGenerator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2543,7 +2545,7 @@ GameObject:
   m_Component:
   - component: {fileID: 773551230}
   - component: {fileID: 773551229}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EnemyGenerator (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3311,6 +3313,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2832645456803166168, guid: 19b23654012ebdf43b832e1e8d102a55, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6227803192914709347, guid: 19b23654012ebdf43b832e1e8d102a55, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6227803192914709347, guid: 19b23654012ebdf43b832e1e8d102a55, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6461420461735312784, guid: 19b23654012ebdf43b832e1e8d102a55, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6461420461735312784, guid: 19b23654012ebdf43b832e1e8d102a55, type: 3}
+      propertyPath: m_IncludeLayers.m_Bits
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7472797568443562572, guid: 19b23654012ebdf43b832e1e8d102a55, type: 3}
@@ -18427,7 +18445,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthbar: {fileID: 2081645743}
-  healthAmount: 100
 --- !u!4 &2005474927
 Transform:
   m_ObjectHideFlags: 0

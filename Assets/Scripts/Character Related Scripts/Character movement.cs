@@ -28,20 +28,17 @@ public class Charactermovement : MonoBehaviour
     [Header("Vida")]
 
     [SerializeField] private HealthManager healthManager;
-    [SerializeField] private float maxHealth;
+    [SerializeField] public float maxHealth;
     private float health;
 
     [Header("Pociones")]
-    private int Problema;
-    private int Solucion;
+    public int Problema;
+    public int Solucion;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        Problema = PlayerPrefs.GetInt("numeroProblemas");
-        Solucion = PlayerPrefs.GetInt("Solucionario");
-        BuffPociones();
         health = maxHealth;
         rb = GetComponent<Rigidbody2D>();
         targetPosition = transform.position;
@@ -149,48 +146,6 @@ public class Charactermovement : MonoBehaviour
 
         // Volver al color original después de la espera
         spriteRenderer.color = Color.white;
-    }
-    
-    public void BuffPociones()
-    {
-        if (!SceneManager.GetActiveScene().name.Equals("lvl1"))
-        {
-            if (Solucion==1)
-            {
-                switch (Problema)
-                {
-                    case 0:
-                        maxHealth += 30;
-                        break;
-
-                    case 1:
-                        attack.damage += 10;
-                        break;
-
-                    case 2:
-                        speed += 1;
-                        break;
-                }
-            }
-            if (Solucion == 0)
-            {
-
-                switch (Problema)
-                {
-                    case 0:
-                        maxHealth -= 10;
-                        break;
-
-                    case 1:
-                        attack.damage -= 5;
-                        break;
-
-                    case 2:
-                        speed -= 1;
-                        break;
-                }
-            }
-        }
     }
 }
 
