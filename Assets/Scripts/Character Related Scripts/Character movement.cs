@@ -1,13 +1,5 @@
-using JetBrains.Annotations;
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
-using UnityEditor.SceneTemplate;
 using UnityEngine;
-using UnityEngine.AI;
-using UnityEngine.Assertions.Must;
-using UnityEngine.Tilemaps;
 using UnityEngine.SceneManagement;
 
 public class Charactermovement : MonoBehaviour
@@ -52,7 +44,7 @@ public class Charactermovement : MonoBehaviour
 
         }
 
-    }
+    
 
     // Update is called once per frame
    void Update()
