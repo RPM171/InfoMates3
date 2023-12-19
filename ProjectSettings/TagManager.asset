@@ -63,3 +63,6 @@ TagManager:
   - name: Superior
     uniqueID: 1511605787
     locked: 0
+  - name: Creditos
+    uniqueID: 2932474865
+    locked: 0
