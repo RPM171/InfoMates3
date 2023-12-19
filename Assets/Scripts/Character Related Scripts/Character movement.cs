@@ -52,7 +52,7 @@ public class Charactermovement : MonoBehaviour
 
         }
 
-    }
+    
 
     // Update is called once per frame
    void Update()

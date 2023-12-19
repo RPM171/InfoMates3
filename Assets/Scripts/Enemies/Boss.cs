@@ -17,6 +17,8 @@ public class Boss : MonoBehaviour
     [SerializeField] private float maxVida;
     private float vida;
     [SerializeField] private HealthEnemy barra;
+    [SerializeField] private GameObject enemyGenerator;
+    [SerializeField] private GameObject enemyGenerator2;
 
     [Header("Ataque")]
 
@@ -27,8 +29,9 @@ public class Boss : MonoBehaviour
     private Vector2 offsetRigth, offsetLeft;
     [SerializeField] private float timeNextAttack;
     [SerializeField] private float timeIdle;
-     private int damage;
-    
+    private int damage;
+    private Color Gold = new Color(0.85f, 0.65f, 0.13f);
+
 
 
     // Start is called before the first frame update
@@ -47,11 +50,13 @@ public class Boss : MonoBehaviour
         agent.updateUpAxis = false;
         offsetLeft = new Vector2(collider.offset.x + 0.03663f, collider.offset.y);
         offsetRigth = new Vector2(-collider.offset.x , collider.offset.y);
+       
     }
 
     // Update is called once per frame
     void Update()
     {
+
         
         Orientation(jugador.position.x-transform.position.x);
         float distanciaPlayer = Vector2.Distance(jugador.position,transform.position);
@@ -64,14 +69,26 @@ public class Boss : MonoBehaviour
         }
         if(vida <= 500)
         {
-            timeIdle = 5f;
-            damage = 50;
+            spriteRenderer.color = Color.magenta;
+            timeIdle = 8f;
+            damage = 30;
+
+            if (vida <= 200)
+            {
+                spriteRenderer.color = Gold;
+                damage = 80;
+                timeIdle = 3f;
+                enemyGenerator.SetActive(true);
+                enemyGenerator2.SetActive(true);
+
+            }
         }
     }
     public void TomarDaño(float damage)
     {
         vida -= damage;
         barra.takeDamage(maxVida, vida);
+        StartCoroutine(CambiarColorTemporalmente(0.5f));
         if (vida <= 0)
         {
             animator.SetTrigger("dead");
@@ -142,5 +159,18 @@ public class Boss : MonoBehaviour
             }
 
         }
+       
+
+    }
+    IEnumerator CambiarColorTemporalmente(float duracion)
+    {
+        // Cambiar el color a "nuevoColor"
+        spriteRenderer.color = Color.red;
+
+        // Esperar la duración especificada
+        yield return new WaitForSeconds(duracion);
+
+        // Volver al color original después de la espera
+        spriteRenderer.color = Color.white;
     }
 }

@@ -20,5 +20,11 @@ public class VolverMenu : MonoBehaviour
         }
 
     }
+    public void Volver()
+    {
+        GameObject.Find("GameManager").GetComponent<GameManager>().SetEstatGameManager(GameManager.EstatGameManager.Inici);
+        GameObject.Find("SceneManager").GetComponent<Scenes>().VolverAlMenu();
+    }
+  
 }
 
