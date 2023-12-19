@@ -1003,7 +1003,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3974573487868105262, guid: 01c8adf1b375a3e469d932720f4182c2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1356278817}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6417815049442118900, guid: 01c8adf1b375a3e469d932720f4182c2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1403218127}
   m_SourcePrefab: {fileID: 100100000, guid: 01c8adf1b375a3e469d932720f4182c2, type: 3}
 --- !u!1 &501136741
 GameObject:
@@ -2930,6 +2933,21 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3974573487868105262, guid: 01c8adf1b375a3e469d932720f4182c2, type: 3}
   m_PrefabInstance: {fileID: 466650214}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1403218127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403218121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fe8581f0193a6a47a7e115ff9ac0247, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 935529138}
+  creditos: {fileID: 718609353}
+  player: {fileID: 981280411}
 --- !u!1 &1520296883
 GameObject:
   m_ObjectHideFlags: 0
