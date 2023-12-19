@@ -2501,7 +2501,7 @@ GameObject:
   - component: {fileID: 773551229}
   m_Layer: 7
   m_Name: EnemyGenerator (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3285,11 +3285,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6227803192914709347, guid: 19b23654012ebdf43b832e1e8d102a55, type: 3}
       propertyPath: m_ExcludeLayers.m_Bits
-      value: 0
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 6461420461735312784, guid: 19b23654012ebdf43b832e1e8d102a55, type: 3}
       propertyPath: m_ExcludeLayers.m_Bits
-      value: 0
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 6461420461735312784, guid: 19b23654012ebdf43b832e1e8d102a55, type: 3}
       propertyPath: m_IncludeLayers.m_Bits
@@ -18799,6 +18799,10 @@ PrefabInstance:
     - target: {fileID: 6996383550533538852, guid: b47a5e4eeec51b040bc2fcee59f28370, type: 3}
       propertyPath: m_Name
       value: EnemyGenerator
+      objectReference: {fileID: 0}
+    - target: {fileID: 6996383550533538852, guid: b47a5e4eeec51b040bc2fcee59f28370, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
