@@ -24,6 +24,7 @@ public class Follow_Player : MonoBehaviour
     [SerializeField] private Transform checkAttack;
     [SerializeField] private HealthEnemy scriptHealth;
     private float healtActual;
+    private Rigidbody2D rigidbody2;
 
 
 
@@ -39,6 +40,7 @@ public class Follow_Player : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
+        rigidbody2 = GetComponent<Rigidbody2D>();
 
 
     }
@@ -107,7 +109,8 @@ public class Follow_Player : MonoBehaviour
     { 
     if (healtActual <= 0)
             {
-              
+            rigidbody2.simulated = false;
+            agent.enabled = false;
               animator.SetTrigger("dead");     
             }
     }
