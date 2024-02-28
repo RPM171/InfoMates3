@@ -3211,7 +3211,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1631142901
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15908,7 +15908,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jugador: {fileID: 981280419}
   Victoria: {fileID: 1403218121}
-  maxVida: 800
+  maxVida: 300
   barra: {fileID: 419503367}
   enemyGenerator: {fileID: 1107028618}
   enemyGenerator2: {fileID: 1415107786}
